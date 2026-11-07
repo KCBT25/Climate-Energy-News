@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>기후·에너지 뉴스 대시보드</title>
+  <style>
+    /* PC/모바일 환경에 맞춰 자동으로 화면이 예쁘게 조정되는 디자인 코드 */
+    body { font-family: 'Malgun Gothic', -apple-system, sans-serif; background-color: #f4f6f9; margin: 0; padding: 20px; }
+    .container { max-width: 600px; margin: 0 auto; }
+    h1 { text-align: center; color: #2c3e50; font-size: 22px; margin-bottom: 20px; }
+    .card { background: white; padding: 18px; margin-bottom: 15px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); transition: 0.3s; }
+    .card:hover { transform: translateY(-2px); box-shadow: 0 6px 12px rgba(0,0,0,0.1); }
+    .title { display: block; font-size: 16px; font-weight: bold; color: #1a73e8; text-decoration: none; line-height: 1.4; }
+    .title:hover { text-decoration: underline; }
+    .info { font-size: 13px; color: #666; margin-top: 10px; display: flex; justify-content: space-between; }
+    .loading { text-align: center; color: #666; padding: 20px; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>🌍 오늘의 기후/에너지 뉴스</h1>
+    <div id="news-list"><div class="loading">실시간 뉴스를 불러오는 중입니다...</div></div>
+  </div>
+
+  <script>
+    // 1. 요청하신 7개 키워드 + 18개 언론사 + 최근 24시간 조건이 모두 들어간 주소
+    const rssUrl = 'https://news.google.com/rss/search?q=(재생에너지+OR+해상풍력+OR+태양광+OR+탄소중립+OR+기후테크+OR+탄소시장+OR+기후변화)+(source:"조선일보"+OR+source:"중앙일보"+OR+source:"동아일보"+OR+source:"한겨레"+OR+source:"경향신문"+OR+source:"한국일보"+OR+source:"서울신문"+OR+source:"문화일보"+OR+source:"세계일보"+OR+source:"국민일보"+OR+source:"제주의소리"+OR+source:"헤드라인제주"+OR+source:"한라일보"+OR+source:"제민일보"+OR+source:"제주매일"+OR+source:"JIBS"+OR+source:"에너지경제신문"+OR+source:"전기신문")+when:1d&hl=ko&gl=KR&ceid=KR:ko';
+
+    // 2. 브라우저 보안 정책을 우회하여 데이터를 가져오기 위한 무료 우회용 주소
+    const proxyUrl = 'https://api.allorigins.win/raw?url=' + encodeURIComponent(rssUrl);
+
+    // 3. 뉴스 데이터를 가져와서 화면에 그려주는 코드
+    fetch(proxyUrl)
+      .then(response => response.text())
+      .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+      .then(data => {
+        const items = data.querySelectorAll("item");
+        let html = '';
+        
+        items.forEach(item => {
+          const title = item.querySelector("title").textContent;
+          const link = item.querySelector("link").textContent;
+          const source = item.querySelector("source") ? item.querySelector("source").textContent : '언론사 미상';
+          
+          // 시간 포맷 예쁘게 변경
+          const pubDateStr = item.querySelector("pubDate").textContent;
+          const pubDate = new Date(pubDateStr);
+          const formattedDate = `${pubDate.getMonth()+1}월 ${pubDate.getDate()}일 ${pubDate.getHours()}:${String(pubDate.getMinutes()).padStart(2, '0')}`;
+
+          html += `
+            <div class="card">
+              <a href="${link}" target="_blank" class="title">${title}</a>
+              <div class="info">
+                <span>📰 ${source}</span>
+                <span>🕒 ${formattedDate}</span>
+              </div>
+            </div>
+          `;
+        });
+        
+        document.getElementById('news-list').innerHTML = html || '<div class="loading">최근 24시간 내 조건에 맞는 기사가 없습니다.</div>';
+      })
+      .catch(err => {
+        document.getElementById('news-list').innerHTML = '<div class="loading">뉴스를 불러오는데 실패했습니다. 새로고침 해주세요.</div>';
+      });
+  </script>
+</body>
+</html>
