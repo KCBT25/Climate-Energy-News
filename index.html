@@ -9,15 +9,15 @@
         .container { max-width: 600px; margin: 0 auto; }
         h1 { color: #1e4a3c; margin-bottom: 5px; font-size: 22px; line-height: 1.3; }
         
-        /* 📊 현재 상태 현황판 스타일 */
+        /* 현황판 */
         .status-board { background: #e8f5e9; border: 1px solid #c8e6c9; padding: 12px; border-radius: 8px; margin-bottom: 15px; font-size: 13px; color: #2e7d32; line-height: 1.5; }
         .status-board strong { color: #1b5e20; }
         .update-time { font-size: 12px; color: #666; margin-top: 5px; text-align: right; }
         
-        /* ⚙️ 접었다 펴는 상세 옵션 (아코디언) 스타일 */
+        /* 검색 옵션 아코디언 */
         details.advanced-search { background: white; padding: 15px; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
         details.advanced-search summary { font-weight: bold; cursor: pointer; color: #1e4a3c; list-style: none; outline: none; }
-        details.advanced-search summary::-webkit-details-marker { display: none; } /* 화살표 숨기기 */
+        details.advanced-search summary::-webkit-details-marker { display: none; }
         details.advanced-search[open] summary { border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 10px; }
         
         .option-group { margin-bottom: 15px; }
@@ -25,20 +25,25 @@
         .checkbox-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(90px, 1fr)); gap: 8px; }
         .checkbox-label { font-size: 13px; display: flex; align-items: center; gap: 4px; cursor: pointer; color: #444; }
         
-        /* 커스텀 검색어 및 버튼 */
         .custom-keyword-box { display: flex; gap: 8px; margin-top: 10px; }
         .search-input { flex: 1; padding: 8px; border: 1px solid #ddd; border-radius: 6px; font-size: 13px; }
         .action-btn { background: #1e4a3c; color: white; border: none; padding: 10px; border-radius: 6px; font-size: 14px; cursor: pointer; font-weight: bold; width: 100%; margin-top: 10px; }
         .action-btn:hover { background: #15362c; }
 
-        /* 기사 리스트 스타일 */
+        /* 탭 버튼 스타일 */
+        .filter-container { display: flex; gap: 8px; margin-bottom: 20px; padding-bottom: 10px; overflow-x: auto; white-space: nowrap; -webkit-overflow-scrolling: touch; }
+        .filter-container::-webkit-scrollbar { display: none; }
+        .filter-btn { background: #e0e7e4; border: none; padding: 10px 16px; border-radius: 20px; cursor: pointer; font-size: 14px; color: #333; font-weight: 500; }
+        .filter-btn.active { background: #1e4a3c; color: white; font-weight: bold; }
+        
+        /* 기사 리스트 */
         .news-card { background: white; padding: 15px; border-radius: 10px; margin-bottom: 12px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); text-decoration: none; display: block; color: inherit; transition: transform 0.2s; }
         .news-card:active { transform: scale(0.98); }
         .source-badge { font-size: 11px; font-weight: bold; padding: 3px 8px; border-radius: 4px; margin-bottom: 8px; display: inline-block; }
         
         .badge-jeju { background-color: #e3f2fd; color: #1976d2; }
         .badge-national { background-color: #fce4ec; color: #c2185b; }
-        .badge-other { background-color: #f5f5f5; color: #616161; display: none; } /* 기타 언론사는 기본적으로 숨김 */
+        .badge-other { background-color: #f5f5f5; color: #616161; } 
         
         .news-title { font-size: 16px; margin: 0; line-height: 1.4; font-weight: 600; }
         .loading { text-align: center; padding: 30px; color: #666; font-weight: bold; animation: pulse 1.5s infinite; }
@@ -49,50 +54,49 @@
     <div class="container">
         <h1 id="mainTitle">🌱 오늘의 기후·에너지</h1>
         
-        <!-- 📊 현재 상태 현황판 -->
         <div class="status-board" id="statusBoard">
-            <div><strong>🔍 검색 키워드:</strong> <span id="currentKeywords">전체 (기본 세팅)</span></div>
+            <div><strong>🔍 검색 키워드:</strong> <span id="currentKeywords">전체 (당일 기본 세팅)</span></div>
             <div style="margin-top:4px;"><strong>📰 표시 언론사:</strong> <span id="currentSources">주요 언론사 전체</span></div>
             <div class="update-time" id="updateTime">데이터를 불러오는 중...</div>
         </div>
 
-        <!-- ⚙️ 상세 검색 및 필터 옵션 (아코디언 UI) -->
         <details class="advanced-search" id="searchDetails">
             <summary>⚙️ 상세 검색 및 언론사 필터 (클릭해서 열기 ▾)</summary>
-            
             <div class="option-group">
-                <div class="option-title">1. 키워드 선택</div>
-                <div class="checkbox-grid" id="keywordCheckboxes">
-                    <!-- 자바스크립트로 체크박스 자동 생성됨 -->
-                </div>
+                <div class="option-title">1. 키워드 선택 (당일 기준)</div>
+                <div class="checkbox-grid" id="keywordCheckboxes"></div>
                 <div class="custom-keyword-box">
-                    <input type="text" id="customKeyword" class="search-input" placeholder="기타 키워드 직접 입력 (예: RE100)">
+                    <input type="text" id="customKeyword" class="search-input" placeholder="기타 키워드 직접 입력 (예: 스마트그리드)">
                 </div>
             </div>
-
             <div class="option-group">
                 <div class="option-title">2. 언론사 선택</div>
-                <div class="checkbox-grid" id="sourceCheckboxes">
-                    <!-- 자바스크립트로 체크박스 자동 생성됨 -->
-                </div>
+                <div class="checkbox-grid" id="sourceCheckboxes"></div>
             </div>
-            
             <button class="action-btn" onclick="applyCustomSearch()">적용하여 실시간 검색 🔄</button>
         </details>
+
+        <!-- 3단 그룹 분리 탭 -->
+        <div class="filter-container">
+            <button class="filter-btn active" onclick="filterGroup('전체', this)">전체 (당일)</button>
+            <button class="filter-btn" onclick="filterGroup('제주 언론', this)">제주</button>
+            <button class="filter-btn" onclick="filterGroup('주요언론사', this)">주요언론사</button>
+            <button class="filter-btn" onclick="filterGroup('기타', this)">기타</button>
+        </div>
 
         <div id="newsList"></div>
     </div>
 
     <script>
         let allArticles = [];
+        let currentTab = '전체'; // 현재 선택된 탭 기억하기
         
-        // 데이터 사전 세팅
-        const BASE_KEYWORDS = ["기후", "에너지", "전력시장", "전력계통", "탄소시장", "탄소크레딧", "해상풍력", "태양광"];
+        // RE100, 송전망 추가
+        const BASE_KEYWORDS = ["기후", "에너지", "전력시장", "전력계통", "탄소시장", "탄소크레딧", "해상풍력", "태양광", "RE100", "송전망"];
         const TARGET_JEJU = ["제주의소리", "헤드라인제주", "한라일보", "제민일보", "제주매일", "JIBS"];
-        const TARGET_NATIONAL = ["조선일보", "중앙일보", "동아일보", "한겨레", "경향신문", "한국일보", "서울신문", "문화일보", "세계일보", "국민일보"];
-        const ALL_SOURCES = [...TARGET_JEJU, ...TARGET_NATIONAL];
+        const TARGET_MAIN = ["조선일보", "중앙일보", "동아일보", "한겨레", "경향신문", "한국일보", "서울신문", "문화일보", "세계일보", "국민일보"];
+        const ALL_SOURCES = [...TARGET_JEJU, ...TARGET_MAIN];
 
-        // 페이지 로드 시 체크박스 자동 생성
         window.onload = function() {
             const kwContainer = document.getElementById('keywordCheckboxes');
             BASE_KEYWORDS.forEach(kw => {
@@ -107,54 +111,54 @@
 
         function categorizeSource(sourceName) {
             if (TARGET_JEJU.some(j => sourceName.includes(j))) return { group: "제주 언론", priority: 1, exactName: TARGET_JEJU.find(j => sourceName.includes(j)) };
-            if (TARGET_NATIONAL.some(n => sourceName.includes(n))) return { group: "중앙지", priority: 2, exactName: TARGET_NATIONAL.find(n => sourceName.includes(n)) };
+            if (TARGET_MAIN.some(n => sourceName.includes(n))) return { group: "주요언론사", priority: 2, exactName: TARGET_MAIN.find(n => sourceName.includes(n)) };
             return { group: "기타", priority: 3, exactName: "기타" };
         }
 
-        // 1. 처음 접속 시 조간 데이터 불러오기
+        // 1. 조간 데이터(오늘) 불러오기
         fetch('data.json')
             .then(response => response.json())
             .then(data => {
                 document.getElementById('mainTitle').innerText = `🌱 오늘의 기후·에너지 (${data.today_date})`;
                 document.getElementById('updateTime').innerText = `업데이트: ${data.update_time} (조간)`;
                 allArticles = data.articles;
-                renderNews(allArticles, ALL_SOURCES); // 기본적으로 타겟 언론사 전체 렌더링
+                applyFilters(); // 필터 적용하여 화면 그리기
             })
-            .catch(error => console.log('로컬 데이터를 기다립니다.'));
+            .catch(error => console.log('데이터를 기다립니다.'));
 
-        // 2. 사용자가 옵션 선택 후 "검색" 눌렀을 때 실행되는 함수
+        // 2. 검색 및 필터 탭 클릭 시 로직
+        function filterGroup(targetGroup, btnElement) {
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            btnElement.classList.add('active');
+            currentTab = targetGroup; // 현재 탭 상태 저장
+            applyFilters();
+        }
+
+        // 3. 상세 검색 버튼 눌렀을 때
         function applyCustomSearch() {
-            // 체크된 키워드 수집
             const checkedKwNodes = document.querySelectorAll('input[name="chk_keyword"]:checked');
             let selectedKeywords = Array.from(checkedKwNodes).map(node => node.value);
             
-            // 직접 입력한 키워드 추가
             const customKw = document.getElementById('customKeyword').value.trim();
             if(customKw) selectedKeywords.push(customKw);
 
-            // 체크된 언론사 수집
             const checkedSrcNodes = document.querySelectorAll('input[name="chk_source"]:checked');
             let selectedSources = Array.from(checkedSrcNodes).map(node => node.value);
 
-            // 예외 처리 (아무것도 안 골랐을 때)
-            if(selectedKeywords.length === 0) return alert("최소 1개의 키워드를 선택하거나 입력해주세요.");
+            if(selectedKeywords.length === 0) return alert("최소 1개의 키워드를 선택해주세요.");
             if(selectedSources.length === 0) return alert("최소 1개의 언론사를 선택해주세요.");
 
-            // 현황판 업데이트
             document.getElementById('currentKeywords').innerText = selectedKeywords.join(', ');
             document.getElementById('currentSources').innerText = selectedSources.length === ALL_SOURCES.length ? "선택 언론사 전체" : `${selectedSources.length}개 언론사 선택됨`;
-            
-            // 검색 옵션 창 다시 접기
             document.getElementById('searchDetails').removeAttribute('open');
 
-            // 실시간 데이터 호출
-            fetchLiveNews(selectedKeywords, selectedSources);
+            fetchLiveNews(selectedKeywords);
         }
 
-        // 3. 구글 뉴스 다이렉트 호출 (실시간)
-        function fetchLiveNews(keywords, sources) {
+        // 4. 실시간 당일 기사 호출 (when:1d 기본 적용)
+        function fetchLiveNews(keywords) {
             const newsList = document.getElementById('newsList');
-            newsList.innerHTML = '<div class="loading">실시간 기사를 수집하고 있습니다... ⏳</div>';
+            newsList.innerHTML = '<div class="loading">실시간 당일 기사를 수집하고 있습니다... ⏳</div>';
 
             const query = encodeURIComponent(keywords.join(' OR ') + " when:1d");
             const rssUrl = `https://news.google.com/rss/search?q=${query}&hl=ko&gl=KR&ceid=KR:ko`;
@@ -170,56 +174,62 @@
                     items.forEach(item => {
                         const titleRaw = item.querySelector("title").textContent;
                         const link = item.querySelector("link").textContent;
-                        
                         let source = "기타 언론사";
                         const sourceNode = item.querySelector("source");
                         if(sourceNode) { source = sourceNode.textContent; }
-
                         const titleParts = titleRaw.split(' - ');
                         if(!sourceNode && titleParts.length > 1) { source = titleParts.pop(); }
                         const cleanTitle = titleParts.join(' - ');
-
                         const cat = categorizeSource(source);
 
-                        liveArticles.push({
-                            title: cleanTitle,
-                            link: link,
-                            source: source,
-                            group: cat.group,
-                            priority: cat.priority,
-                            exactName: cat.exactName
-                        });
+                        liveArticles.push({ title: cleanTitle, link: link, source: source, group: cat.group, priority: cat.priority, exactName: cat.exactName });
                     });
 
-                    // 1:제주 -> 2:중앙 -> 3:기타 정렬
                     liveArticles.sort((a, b) => a.priority - b.priority);
+                    allArticles = liveArticles;
                     
-                    // 선택한 언론사에 맞게 필터링 및 렌더링
-                    renderNews(liveArticles, sources);
-
                     const now = new Date();
                     document.getElementById('updateTime').innerHTML = `<span style="color:#d32f2f; font-weight:bold;">실시간 반영 완료: ${now.getHours()}시 ${now.getMinutes()}분</span>`;
+                    
+                    applyFilters(); // 데이터가 갱신되면 필터 규칙대로 다시 그림
                 })
                 .catch(error => {
-                    newsList.innerHTML = '<p style="color:red; text-align:center;">실시간 수집에 실패했습니다. 잠시 후 다시 시도해주세요.</p>';
+                    newsList.innerHTML = '<p style="color:red; text-align:center;">수집 실패. 잠시 후 다시 시도해주세요.</p>';
                 });
         }
 
-        // 4. 화면에 기사 그리기 (필터링 적용)
-        function renderNews(articles, allowedSources) {
+        // 5. 체크박스와 탭 버튼을 종합하여 최종 화면 그리기
+        function applyFilters() {
             const newsList = document.getElementById('newsList');
-            let html = '';
             
-            // 타겟 언론사에 포함된 기사만 필터링 (기타 언론사 제외)
-            let filteredArticles = articles.filter(article => allowedSources.includes(article.exactName));
+            // 5-1. 체크된 타겟 언론사만 남기기 (단, '기타' 그룹은 체크박스가 없으므로 무조건 통과)
+            const checkedSrcNodes = document.querySelectorAll('input[name="chk_source"]:checked');
+            let selectedSources = Array.from(checkedSrcNodes).map(node => node.value);
+            
+            let filteredBySource = allArticles.filter(article => {
+                if (article.group === '기타') return true; 
+                return selectedSources.includes(article.exactName);
+            });
 
-            if (filteredArticles.length === 0) {
-                newsList.innerHTML = '<p style="color:#666; text-align:center; padding:30px;">선택하신 조건에 맞는 기사가 없습니다.<br>검색 옵션을 변경해보세요.</p>';
+            // 5-2. 현재 선택된 탭(전체/제주/주요언론사/기타)에 맞게 최종 거르기
+            let finalArticles = [];
+            if (currentTab === '전체') {
+                finalArticles = filteredBySource; // 전체 보기
+            } else {
+                finalArticles = filteredBySource.filter(a => a.group === currentTab);
+            }
+
+            // 5-3. 화면에 렌더링
+            let html = '';
+            if (finalArticles.length === 0) {
+                newsList.innerHTML = '<p style="color:#666; text-align:center; padding:30px;">선택하신 탭과 조건에 맞는 당일 기사가 없습니다.</p>';
                 return;
             }
 
-            filteredArticles.forEach(article => {
-                let badgeClass = article.group === '제주 언론' ? 'badge-jeju' : 'badge-national';
+            finalArticles.forEach(article => {
+                let badgeClass = 'badge-other';
+                if (article.group === '제주 언론') badgeClass = 'badge-jeju';
+                else if (article.group === '주요언론사') badgeClass = 'badge-national';
 
                 html += `
                     <a href="${article.link}" target="_blank" class="news-card">
