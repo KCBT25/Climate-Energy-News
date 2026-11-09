@@ -18,7 +18,7 @@
     .news-list a { color: #2c3e50; text-decoration: none; font-size: 14px; }
     .news-list a:hover { color: #1a73e8; text-decoration: underline; }
     .empty { color: #999; font-size: 14px; font-style: italic; }
-    .loading { text-align: center; padding: 50px; font-size: 18px; color: #666; }
+    .loading { text-align: center; padding: 50px; font-size: 16px; color: #666; line-height: 1.6; }
     .count { font-size: 14px; color: #888; font-weight: normal; }
   </style>
 </head>
@@ -37,10 +37,9 @@
   </div>
 
   <script>
-    // 💡 [매우 중요] 3단계에서 복사한 구글 앱스 스크립트 '웹 앱 URL'을 아래 따옴표 안에 넣으세요!
+    // 질문자님의 구글 앱스 스크립트 주소를 완벽하게 삽입했습니다.
     const API_URL = "https://script.google.com/macros/s/AKfycbyeogQGMCcRQ091pRMdx-1re-fYwpWv51WBgUvxRpkJ9fIVN8ZMo9OYMR_xjimAtB8R/exec"; 
     
-    // 고정 언론사 18개 리스트
     const MEDIA_LIST = [
       "조선일보", "중앙일보", "동아일보", "한겨레", "경향신문", "한국일보", 
       "서울신문", "문화일보", "세계일보", "국민일보", "제주의소리", "헤드라인제주", 
@@ -49,46 +48,47 @@
 
     let allNewsData = [];
 
-    // 구글 시트에서 데이터 가져오기
-    fetch(API_URL)
+    // 오류를 더 잘 잡아내도록 통신 코드 업데이트
+    fetch(API_URL, { redirect: "follow" })
       .then(res => res.json())
       .then(data => {
         allNewsData = data;
         setupDateSelector();
-        renderDashboard(); // 가장 최근 날짜로 화면 그리기
+        renderDashboard(); 
       })
       .catch(err => {
-        document.getElementById('dashboard').innerHTML = '<div class="loading">데이터를 불러오는 중 오류가 발생했습니다. 구글 웹앱 URL을 확인해주세요.</div>';
+        // 오류가 날 경우 화면에 구체적인 해결책을 띄워줍니다.
+        document.getElementById('dashboard').innerHTML = `
+          <div class="loading">
+            <b>데이터를 불러오지 못했습니다 😢</b><br><br>
+            1. 구글 스프레드시트 엑셀 화면에 뉴스가 정상적으로 채워져 있는지 확인해주세요.<br>
+            2. 크롬에 구글 계정이 여러 개 로그인되어 있으면 충돌이 납니다. 브라우저 <b>'새 시크릿 창'</b>을 열고 접속해보세요.
+          </div>
+        `;
       });
 
-    // 날짜 선택(드롭다운) 설정
     function setupDateSelector() {
-      const dates = [...new Set(allNewsData.map(item => item.date))].sort().reverse(); // 최신 날짜가 위로
+      const dates = [...new Set(allNewsData.map(item => item.date))].sort().reverse(); 
       const select = document.getElementById('date-select');
       
       if (dates.length === 0) {
         select.innerHTML = '<option value="">저장된 기록 없음</option>';
         return;
       }
-
       select.innerHTML = dates.map(date => `<option value="${date}">${date} 동향</option>`).join('');
     }
 
-    // 화면에 언론사별 기사 그려주기
     function renderDashboard() {
       const selectedDate = document.getElementById('date-select').value;
       if (!selectedDate) {
-        document.getElementById('dashboard').innerHTML = '<div class="loading">오늘 수집된 기사가 없습니다.</div>';
+        document.getElementById('dashboard').innerHTML = '<div class="loading">수집된 기사가 없습니다.</div>';
         return;
       }
 
-      // 선택한 날짜의 뉴스만 필터링
       const dateNews = allNewsData.filter(item => item.date === selectedDate);
       let html = '';
 
-      // 18개 언론사를 순서대로 하나씩 렌더링
       MEDIA_LIST.forEach(media => {
-        // 해당 언론사의 기사만 필터링
         const mediaArticles = dateNews.filter(news => news.source === media);
         
         html += `
@@ -104,7 +104,6 @@
             html += `<li><a href="${article.link}" target="_blank">▪ ${article.title}</a></li>`;
           });
         } else {
-          // 기사가 없으면 '해당없음' 표시
           html += `<div class="empty">해당없음</div>`;
         }
 
