@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- [핵심 수정 1] 구글이 클릭 출처를 추적하지 못하게 꼬리표를 숨깁니다 (기사 클릭 에러 해결) -->
+    <meta name="referrer" content="no-referrer">
     <title>기후·에너지 뉴스 클리핑</title>
     <style>
         body { font-family: 'Pretendard', -apple-system, sans-serif; background-color: #f4f7f6; margin: 0; padding: 20px; color: #333; }
         .container { max-width: 600px; margin: 0 auto; }
         h1 { color: #1e4a3c; margin-bottom: 5px; font-size: 22px; line-height: 1.3; }
         
-        /* 현황판 */
         .status-board { background: #e8f5e9; border: 1px solid #c8e6c9; padding: 12px; border-radius: 8px; margin-bottom: 15px; font-size: 13px; color: #2e7d32; line-height: 1.5; }
         .status-board strong { color: #1b5e20; }
         .update-time { font-size: 12px; color: #666; margin-top: 5px; text-align: right; }
         
-        /* 검색 옵션 아코디언 */
         details.advanced-search { background: white; padding: 15px; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
         details.advanced-search summary { font-weight: bold; cursor: pointer; color: #1e4a3c; list-style: none; outline: none; }
         details.advanced-search summary::-webkit-details-marker { display: none; }
@@ -30,13 +30,11 @@
         .action-btn { background: #1e4a3c; color: white; border: none; padding: 10px; border-radius: 6px; font-size: 14px; cursor: pointer; font-weight: bold; width: 100%; margin-top: 10px; }
         .action-btn:hover { background: #15362c; }
 
-        /* 탭 버튼 스타일 */
         .filter-container { display: flex; gap: 8px; margin-bottom: 20px; padding-bottom: 10px; overflow-x: auto; white-space: nowrap; -webkit-overflow-scrolling: touch; }
         .filter-container::-webkit-scrollbar { display: none; }
         .filter-btn { background: #e0e7e4; border: none; padding: 10px 16px; border-radius: 20px; cursor: pointer; font-size: 14px; color: #333; font-weight: 500; }
         .filter-btn.active { background: #1e4a3c; color: white; font-weight: bold; }
         
-        /* 기사 리스트 */
         .news-card { background: white; padding: 15px; border-radius: 10px; margin-bottom: 12px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); text-decoration: none; display: block; color: inherit; transition: transform 0.2s; }
         .news-card:active { transform: scale(0.98); }
         .source-badge { font-size: 11px; font-weight: bold; padding: 3px 8px; border-radius: 4px; margin-bottom: 8px; display: inline-block; }
@@ -76,7 +74,6 @@
             <button class="action-btn" onclick="applyCustomSearch()">적용하여 실시간 검색 🔄</button>
         </details>
 
-        <!-- 3단 그룹 분리 탭 -->
         <div class="filter-container">
             <button class="filter-btn active" onclick="filterGroup('전체', this)">전체 (당일)</button>
             <button class="filter-btn" onclick="filterGroup('제주 언론', this)">제주</button>
@@ -89,9 +86,8 @@
 
     <script>
         let allArticles = [];
-        let currentTab = '전체'; // 현재 선택된 탭 기억하기
+        let currentTab = '전체';
         
-        // RE100, 송전망 추가
         const BASE_KEYWORDS = ["기후", "에너지", "전력시장", "전력계통", "탄소시장", "탄소크레딧", "해상풍력", "태양광", "RE100", "송전망"];
         const TARGET_JEJU = ["제주의소리", "헤드라인제주", "한라일보", "제민일보", "제주매일", "JIBS"];
         const TARGET_MAIN = ["조선일보", "중앙일보", "동아일보", "한겨레", "경향신문", "한국일보", "서울신문", "문화일보", "세계일보", "국민일보"];
@@ -115,26 +111,23 @@
             return { group: "기타", priority: 3, exactName: "기타" };
         }
 
-        // 1. 조간 데이터(오늘) 불러오기
         fetch('data.json')
             .then(response => response.json())
             .then(data => {
                 document.getElementById('mainTitle').innerText = `🌱 오늘의 기후·에너지 (${data.today_date})`;
                 document.getElementById('updateTime').innerText = `업데이트: ${data.update_time} (조간)`;
                 allArticles = data.articles;
-                applyFilters(); // 필터 적용하여 화면 그리기
+                applyFilters();
             })
             .catch(error => console.log('데이터를 기다립니다.'));
 
-        // 2. 검색 및 필터 탭 클릭 시 로직
         function filterGroup(targetGroup, btnElement) {
             document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
             btnElement.classList.add('active');
-            currentTab = targetGroup; // 현재 탭 상태 저장
+            currentTab = targetGroup;
             applyFilters();
         }
 
-        // 3. 상세 검색 버튼 눌렀을 때
         function applyCustomSearch() {
             const checkedKwNodes = document.querySelectorAll('input[name="chk_keyword"]:checked');
             let selectedKeywords = Array.from(checkedKwNodes).map(node => node.value);
@@ -155,31 +148,31 @@
             fetchLiveNews(selectedKeywords);
         }
 
-        // 4. 실시간 당일 기사 호출 (when:1d 기본 적용)
         function fetchLiveNews(keywords) {
             const newsList = document.getElementById('newsList');
             newsList.innerHTML = '<div class="loading">실시간 당일 기사를 수집하고 있습니다... ⏳</div>';
 
             const query = encodeURIComponent(keywords.join(' OR ') + " when:1d");
             const rssUrl = `https://news.google.com/rss/search?q=${query}&hl=ko&gl=KR&ceid=KR:ko`;
-            const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(rssUrl)}`;
+            
+            // [핵심 수정 2] 구글 차단을 우회하기 위해 공인된 rss2json API 사용
+            const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
 
-            fetch(proxyUrl)
-                .then(response => response.text())
-                .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+            fetch(apiUrl)
+                .then(response => response.json())
                 .then(data => {
-                    const items = data.querySelectorAll("item");
-                    let liveArticles = [];
+                    if (data.status !== "ok") throw new Error("API 연동 실패");
                     
-                    items.forEach(item => {
-                        const titleRaw = item.querySelector("title").textContent;
-                        const link = item.querySelector("link").textContent;
+                    let liveArticles = [];
+                    data.items.forEach(item => {
+                        const titleRaw = item.title;
+                        const link = item.link;
+                        
                         let source = "기타 언론사";
-                        const sourceNode = item.querySelector("source");
-                        if(sourceNode) { source = sourceNode.textContent; }
                         const titleParts = titleRaw.split(' - ');
-                        if(!sourceNode && titleParts.length > 1) { source = titleParts.pop(); }
+                        if(titleParts.length > 1) { source = titleParts.pop(); }
                         const cleanTitle = titleParts.join(' - ');
+                        
                         const cat = categorizeSource(source);
 
                         liveArticles.push({ title: cleanTitle, link: link, source: source, group: cat.group, priority: cat.priority, exactName: cat.exactName });
@@ -191,18 +184,16 @@
                     const now = new Date();
                     document.getElementById('updateTime').innerHTML = `<span style="color:#d32f2f; font-weight:bold;">실시간 반영 완료: ${now.getHours()}시 ${now.getMinutes()}분</span>`;
                     
-                    applyFilters(); // 데이터가 갱신되면 필터 규칙대로 다시 그림
+                    applyFilters();
                 })
                 .catch(error => {
-                    newsList.innerHTML = '<p style="color:red; text-align:center;">수집 실패. 잠시 후 다시 시도해주세요.</p>';
+                    newsList.innerHTML = '<p style="color:red; text-align:center;">수집 실패. 구글 보안에 막혔습니다. 잠시 후 시도해주세요.</p>';
                 });
         }
 
-        // 5. 체크박스와 탭 버튼을 종합하여 최종 화면 그리기
         function applyFilters() {
             const newsList = document.getElementById('newsList');
             
-            // 5-1. 체크된 타겟 언론사만 남기기 (단, '기타' 그룹은 체크박스가 없으므로 무조건 통과)
             const checkedSrcNodes = document.querySelectorAll('input[name="chk_source"]:checked');
             let selectedSources = Array.from(checkedSrcNodes).map(node => node.value);
             
@@ -211,15 +202,13 @@
                 return selectedSources.includes(article.exactName);
             });
 
-            // 5-2. 현재 선택된 탭(전체/제주/주요언론사/기타)에 맞게 최종 거르기
             let finalArticles = [];
             if (currentTab === '전체') {
-                finalArticles = filteredBySource; // 전체 보기
+                finalArticles = filteredBySource; 
             } else {
                 finalArticles = filteredBySource.filter(a => a.group === currentTab);
             }
 
-            // 5-3. 화면에 렌더링
             let html = '';
             if (finalArticles.length === 0) {
                 newsList.innerHTML = '<p style="color:#666; text-align:center; padding:30px;">선택하신 탭과 조건에 맞는 당일 기사가 없습니다.</p>';
@@ -231,8 +220,9 @@
                 if (article.group === '제주 언론') badgeClass = 'badge-jeju';
                 else if (article.group === '주요언론사') badgeClass = 'badge-national';
 
+                // [핵심 수정 1-1] 링크에 rel="noreferrer"를 추가하여 구글의 추적을 완벽히 차단합니다.
                 html += `
-                    <a href="${article.link}" target="_blank" class="news-card">
+                    <a href="${article.link}" target="_blank" rel="noreferrer noopener" class="news-card">
                         <span class="source-badge ${badgeClass}">${article.source}</span>
                         <h3 class="news-title">${article.title}</h3>
                     </a>
