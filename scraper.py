@@ -5,7 +5,6 @@ import json
 from datetime import datetime
 import pytz
 
-# 타겟 언론사 리스트
 TARGET_MAIN = ["조선일보", "중앙일보", "동아일보", "한겨레", "경향신문", "한국일보", "서울신문", "문화일보", "세계일보", "국민일보"]
 TARGET_JEJU = ["제주의소리", "헤드라인제주", "한라일보", "제민일보", "제주매일", "JIBS"]
 
@@ -18,13 +17,17 @@ def categorize_source(source_name):
         return "기타", 3
 
 def fetch_news():
-    # 1. 키워드에 RE100, 송전망 추가 (when:1d 로 당일 24시간 기사만 수집)
     keywords = "기후 OR 에너지 OR 전력시장 OR 전력계통 OR 탄소시장 OR 탄소크레딧 OR 해상풍력 OR 태양광 OR RE100 OR 송전망"
     search_query = urllib.parse.quote(f"{keywords} when:1d")
-    
     url = f"https://news.google.com/rss/search?q={search_query}&hl=ko&gl=KR&ceid=KR:ko"
     
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+    # [핵심 수정] 구글 차단을 피하기 위해 윈도우 PC의 크롬 브라우저인 것처럼 신분을 위장합니다.
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    }
+    
+    req = urllib.request.Request(url, headers=headers)
     response = urllib.request.urlopen(req)
     xml_data = response.read()
     
@@ -38,7 +41,6 @@ def fetch_news():
         source = item.find('source').text if item.find('source') is not None else "기타 언론사"
         
         clean_title = title.rsplit(' - ', 1)[0]
-        
         group, priority = categorize_source(source)
         
         news_list.append({
@@ -50,7 +52,6 @@ def fetch_news():
             "date": pubDate
         })
     
-    # 우선순위(1:제주 -> 2:주요 -> 3:기타) 정렬
     news_list.sort(key=lambda x: x['priority'])
     
     korea_tz = pytz.timezone('Asia/Seoul')
