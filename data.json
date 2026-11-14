@@ -1,46 +1,62 @@
 {
-  "today_date": "11월 13일",
-  "update_time": "11월 13일 오전 08:00",
+  "today_date": "11월 14일",
+  "update_time": "11월 14일 오전 08:00",
   "articles": [
     {
-      "title": "“원전도 재생에너지 인증서에 1조 원”…전기요금 부담 줄일 수 있을까",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hYXJOLWhYdmhGamplUDVCb0VvY0FFR25ON3pxNGRlZ1UxWDVMYVpGVWRvbHdHRGZLbTBoX1JfaG9zUXFnMXI4dklKbWlEUGhOOXB1SVExa1B2amRnQ3g1LXNPU25rZVF4OTloWHVEd0pFSTlOSkHSAWZBVV95cUxNcWJaY0FrNVRveEtzemU0dkU3dmdvbFNVRm1hSEEtdHJUMzFJelh3MWt5VU5VR0hqanVaRzNxZERKM2djVmVENDVQcmJUdnptT21RT3pUc2thR1BmNEtQWUV1Mzg3TFE?oc=5",
-      "source": "동아일보",
-      "group": "주요언론사",
-      "priority": 2,
-      "date": "Fri, 13 Nov 2026 00:49:28 GMT"
+      "title": "제주도, COP31서 국내 최초 지수형 기후보험 운영 사례 국제사회에 소개",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tVEIxY0pvWWdvV0htaG56dzFrbXNyb056dFRuQmRxYkcxZ01TLTFwV053OXdNaWRkWUJSM2xBQ0xCSkVOcTFkUHhTYWstNG81NjdPZ3ZsemNqWi1mNmY2cTZEaE1Xd3J6YnFqTjNDQWphRVU?oc=5",
+      "source": "헤드라인제주",
+      "group": "제주 언론",
+      "priority": 1,
+      "date": "Fri, 13 Nov 2026 07:39:55 GMT"
     },
     {
-      "title": "노원구 “기후에너지환경부 지정 ‘2026 환경교육도시’ 선정”",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9KUWY4T0kwWTdnbzZFOU5HWUdvV2NBXzRPNGwyX2FhRXpuNENQMjFzVE45R1JxWWJ1UUhxY3ZPZXBLaUlKcUhuR1ZfcDlvUlBD?oc=5",
-      "source": "문화일보",
-      "group": "주요언론사",
-      "priority": 2,
-      "date": "Thu, 12 Nov 2026 22:21:45 GMT"
+      "title": "제주에너지공사, 재생에너지 연계 '하이브리드 수전해' 기술개발 본격 착수",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA1azVIWm1aS1R5NjRfQW0tcGVBUUR6MEVobWxrUlBLdFhzcmtKTDBLZzZYZkFJeGZfTEZLUkkwRXE3SUxWbnl6YnFwNWI2VUhuWGVneC0xcnp6TmUxektKT3EwaUZTWFdueFg0Y2VzeU1wZVU?oc=5",
+      "source": "헤드라인제주",
+      "group": "제주 언론",
+      "priority": 1,
+      "date": "Fri, 13 Nov 2026 06:26:34 GMT"
     },
     {
-      "title": "원전-태양광-풍력 갖춘 영광, 반도체 소부장 거점 노린다",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9HYnVkMlpJbnBIRFVndWR0RkdLT21NRmxkUDZ0Z3pGTW5wMldiV25JQWpUNjZ2VE5VVkFTQmVfVm90bUk0NHctNWFWcVVSUnNONEdpbWowVlJPakQ2TkhXS3lmMXhqQjBLc2J3TFRSSXQtazFkTEHSAWZBVV95cUxNcUlvQ3dRX21EdVRCX1hBMkI2T2xSMHdSWnRKenNDRkw2bjdpTjBYXzVyYlkxdng3aHl5MGcycGVWSG5vYS10SGItazB2NF9VdXNoR0dXRHVhX0pjcW5yS3BSUDQ5TVE?oc=5",
-      "source": "동아일보",
+      "title": "\"태평양 섬뿐 아니라 누구도 기후 위기 못 피해\"",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbFJ2THBibEpha3RaQmhxc0c2MEVaYWx1cHloUkFXVlJkR2NJOVNZbzJRMmNJOXVqR1JmSzVSampiSEZ6Mkh2UHRibHBucFREOUFHcGJ2cWVweGVRUnVUdnJaemwwTDV2WkU1VlRjM29GSklUYlFqUWxZOVNESWdxV2dGdmVpN0FOTndCSzFseUdPc0gxdzlEanJ5bHlVUQ?oc=5",
+      "source": "조선일보",
       "group": "주요언론사",
       "priority": 2,
-      "date": "Thu, 12 Nov 2026 19:30:00 GMT"
+      "date": "Fri, 13 Nov 2026 15:33:00 GMT"
     },
     {
-      "title": "[2026 하반기 혁신특허 기술대상] 고효율 냉난방 기술로 에너지 절감",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Sb01UT1FfMWl0amxBcjZub2tQZVZ2SXR2TEhTRUR2dktaMWYzTjJITGM5T1dmZTAxaTRNSVdHRWcwS0lqN1BYYVBScFE1cXk3Z1JaMkRn?oc=5",
+      "title": "줄어드는 석유… 미래 에너지 준비 돼 있는가",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBJeEdtMng0MmVad3pkVmtJazA0LXpwd3R4M2NkcEFPNmtRZThjVEJBdEpzM2xuNmk1M2pRVjFpWUk3Ulc2ejV5dDBNMnprSmM1RDlPYW1TMkRrZmZjTFJEeW96YzJWQVh3UHVB0gFUQVVfeXFMUE4xak1wSmNmT2lUYng1Vzg0cGQzNnkydlhLQ0dfaW1Hc3lpeGFPRXBpaE9yMnBEaFRiemtqT2RhM1JiNjhlc0VKQmk5cjFnc2ZNM21B?oc=5",
+      "source": "세계일보",
+      "group": "주요언론사",
+      "priority": 2,
+      "date": "Fri, 13 Nov 2026 21:00:00 GMT"
+    },
+    {
+      "title": "[2026 하반기 혁신특허 기술대상] 스마트에너지, 태양광 모듈로 국방·모빌리티 시장 확대",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FT2pZSU95WHVPODNZSUdtV2YwZEk5MkRiRlpUbkJMTjZWRFk1SHVJNlNMVWY5SEtLcDA1U1JxWG1QQ25oM0RJcUFGZDFfZE9feFFvNmR3?oc=5",
       "source": "중앙일보",
       "group": "주요언론사",
       "priority": 2,
-      "date": "Thu, 12 Nov 2026 20:30:00 GMT"
+      "date": "Fri, 13 Nov 2026 08:55:00 GMT"
     },
     {
-      "title": "[현장] 46년차 어부도 기대… 7500억 들인 해상풍력, 부산에 처음 들어선다",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB6YUpqRTZfanNtWmJPYlllZklLZHAwNUEyVzBkRW0xTVpXTWVqa0dPQ2plZXRCd213WjdsZ1NMZUhhWVlNVklIa3I5RVoyTUxxb3AzWUFOc09haXZaZUt4cFp6MXFuUjJVcE1TLTF30gFzQVVfeXFMUDJCM091dUItS1g4eHJDa1AzaHVkWDRENml2eExOc1M5VGFIUHVsVEVkcm1xR1JwblN3MGpzcEZPenZfNFpmZlluQkFTeV9GQUF5TVUzaGI2U0RER2FVVWZsUF9jUE1ibldEQ2lpdUVaVG42bw?oc=5",
-      "source": "한국일보",
+      "title": "네팔 “기후변화 책임 적지만 피해 커”…선진국에 재정 지원 촉구",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBHX1ZVNlNlVGdfZDF6blZoRG1IU19kNVBBMklzYUdmV2JjbVoyRThpblA0QzlXSHpwdG5MTTF5V0dZaHZHRW1zZFMwck9LTlJyS290d3EwWnExcTZqUTF0ZFJtbGVrNndldVAzWlU1WEtfUVHSAWZBVV95cUxObThRQVlhdFllRFFaSlVZOUFZbmlFVnZkeldkS2V4OG5ib0lmZjhINENOQjF5a01DTDVRWXlZQ3RLOFlCWW1PZnh6NkFUQ1BqUXJuNF9hVkQ2LUhadnpQY1hnS3JWUVE?oc=5",
+      "source": "동아일보",
       "group": "주요언론사",
       "priority": 2,
-      "date": "Thu, 12 Nov 2026 19:30:00 GMT"
+      "date": "Fri, 13 Nov 2026 08:02:17 GMT"
+    },
+    {
+      "title": "기후 지원금의 역설…원금보다 30% 더 상환",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Qb2pnNm1RZExERXJLdmVmNjV5VU1hVjk2S1hhS3JpVThJNDk2a0JwREFoMFo5NzdEN0VGeVZFenYwanMzQ1Rzcm5lanlRRUd2SlE3VEdya25Mc3kwSExxS1piUUN2TDNHdnhOdVJpV05tdw?oc=5",
+      "source": "한겨레",
+      "group": "주요언론사",
+      "priority": 2,
+      "date": "Fri, 13 Nov 2026 08:42:00 GMT"
     },
     {
       "title": "한국형 녹색대전환(K-GX)",
@@ -48,71 +64,23 @@
       "source": "국가기후위기대응위원회",
       "group": "기타",
       "priority": 3,
-      "date": "Thu, 12 Nov 2026 23:09:26 GMT"
+      "date": "Sat, 14 Nov 2026 00:27:44 GMT"
     },
     {
-      "title": "남부발전, 재생에너지 사업 경쟁력 강화 속도",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE85cmhQTDF1ZWY2b1FhaW1QbjZHa3RiVk1ITGFYeXNfU1hVVk1vMlhHc2hJMk1sbkxhTlJmZWNzeXhheWlLUnFvTldnUnMwMFhjd0d1dktMQW1LWHc1eFE2eENTVmJiTjhGY0tCNVl2UE51Zw?oc=5",
-      "source": "에너지데일리",
+      "title": "지역별 요금제 논란, 전기요금 왜곡이 낳은 민낯 [기후에너지환경 단상]",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE14d1M2d2lLMl9tdElUbTJvXzdPUzBqSFVBeUJqYkJKbmlYSVQ0NGQzTmpZeFZybnNpSzAtS0g0d1R3U244UXZKQ2pSYnlMRTc4ZVJrYVpYeTliYTlfcVE?oc=5",
+      "source": "기후에너지데이터뱅크",
       "group": "기타",
       "priority": 3,
-      "date": "Thu, 12 Nov 2026 22:55:00 GMT"
+      "date": "Sat, 14 Nov 2026 01:10:03 GMT"
     },
     {
-      "title": "재생에너지 100GW 목표 ‘빨간불’… 기후솔루션, ‘재생에너지 100GW 신호등’ 공개",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1RSzJMMUdWY0xRdHRJQUwyQmpweXZkMnZyQUt1ZHlXd2tWYWlrOHhteGx5VlVOWGlTNm5qMjB0TTRQcEg5VW9NcWp5SHRaMEU4YVE5eTFTc2xGQUZoNU9wLTVaQlhxMXpjWEhycXFtd3kwZw?oc=5",
-      "source": "인더스트리뉴스",
+      "title": "[칼럼] 공영주차장 태양광, 시민 참여의 마중물이 되려면",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0yRTJwTU1EcF9neGlSRF9DemljWkZYVTZyVGZ6cEtMY1BpTElNVXplMUc5cjROQUJyeEstbkI4bUdZUmNYZnF0cTkxMkR0dDJaNGZNdmlEc3RlN1lkQTk3Slk0VHFhMFMzVHdjM2kxdk8?oc=5",
+      "source": "인천투데이",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 01:16:50 GMT"
-    },
-    {
-      "title": "\"AI 전력난·기후위기 해법은 원전\"…IAEA, COP31서 '원자력 대확장' 선언",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0wWWtqemIyd0g0RTJfRlBpeWNjTXcyRk5TTk9SdVdEZFRZR181aXVidW5kQnpJM0htem1UZ19hdTFZMWs4SXJtRFRsdUtlMWw0Q3BvYTUyVWxWa1FkcVd6ZEhvVmw?oc=5",
-      "source": "에너지안전신문",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:47:43 GMT"
-    },
-    {
-      "title": "경북도의회, 도시가스 미공급지역 에너지공급 혁신 방안 모색",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBSU09zTm1BZWZ3Y1BLNDB0bDFyR1JnOXRlUUxRV2llb3JEM2ZmMTYxM3RNZm9EZHdHLWZ5VDBJeGd6MjdydUNSWTF3Y01SUmUtN1JzT0VVYzB4bGxLMHZsbi1wS09XZw?oc=5",
-      "source": "데일리대구경북뉴스",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:03:20 GMT"
-    },
-    {
-      "title": "시흥시, '시흥 RE100, 빛나는 한 컷' 사진 공모전 개최",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9SejcwQTZ4RFVTZmp0YXQ1cVJ1cWw1SG10Mkk5LXIwWWVQRFRJYlFpbGlNdU9UMUZmWlRUQnNZNVJUdmx4MWRPRFRBSFJ5bGQwOFlyWWVZdFlOUlNmMHZETjVkTm8?oc=5",
-      "source": "매일일보",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 01:20:10 GMT"
-    },
-    {
-      "title": "“산업 전기화, 청정전력 공급이 뒷받침돼야”",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBtOWRaNjRwTndHdjByNHlhSHVkU1JaY2NtaDdqZThXd2VlX3pMMkJza0pGeTk4R0xRdmN0eHVFeG1jZ0RNSEIxTkh4TVZJQXpFN29pR2haX2hneXdoeVFRMFBuM0pzampx?oc=5",
-      "source": "환경일보",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:58:54 GMT"
-    },
-    {
-      "title": "수원특례시, 슬레이트 처리 지원 우수기관 선정 기후에너지환경부 장관 표창",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FVHYzb1FRU1hGcXV2dXB0RmdoTmM3dXZBMy0tcjU2anl4MEVkZ2hkc1otaVFyN2FYbGp0WGJZS1NwSDhTYzBMUml0ZTlSZGtra2hYdW9OZmFyZWc?oc=5",
-      "source": "에너지경제신문",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:16:07 GMT"
-    },
-    {
-      "title": "기후부 김성환 장관, ‘햇빛소득마을’ 화순군 수동마을 방문",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1LZzE3Tm9VUnlNZVM1Mk5LaDNyZ0VLOWFLbVk0Vi1yMHl0dzFoT3dzMEM3RVkwZVpPN281YVlaR2VQbW5SSXpzbFlQMVZ1VDF4bFZndWtjNWhyeHo4dG1BMnJZWHp2eWJzYWJEemsxNXA?oc=5",
-      "source": "솔라투데이",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:23:35 GMT"
+      "date": "Sat, 14 Nov 2026 00:00:00 GMT"
     },
     {
       "title": "전기차로 달린 유럽 5개국 3,000km: 재생에너지 마을을 지나 COP31 현장까지",
@@ -120,687 +88,719 @@
       "source": "Greenpeace",
       "group": "기타",
       "priority": 3,
-      "date": "Thu, 12 Nov 2026 20:21:01 GMT"
+      "date": "Fri, 13 Nov 2026 20:19:46 GMT"
     },
     {
-      "title": "에기평, 차세대 태양광 인버터 간담회 개최",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DdU1XU0U5bUJmOWdwNFI0QnJCd0JIWF9ENGw4M09UaFowQ1pFaVA5RHpyWDdfSFVnZm0wU3lNaXBfR0NzRE1ndnNFUEN0aXRwYXlfYWFaMWZUcmFzVnN6NjUzbzc3MlNOYm9MVw?oc=5",
-      "source": "투데이에너지",
+      "title": "한-네팔, 기후변화 협력 기본협정 체결…온실가스 감축 역량 강화",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjbzVHanItZU5zcnBTdmRMR1hkQk1HVTBnTVZwM1duMklIUzBRWU9VSjJhY0hhWEZRbWR3VjFNOHZyRDVqNi11RlgtSFN6UHRtZERxam5BRnRmb3BhbVhLeWowVHdMUk0?oc=5",
+      "source": "연합뉴스TV",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 01:14:27 GMT"
+      "date": "Sat, 14 Nov 2026 00:21:00 GMT"
     },
     {
-      "title": "[뭐라노] 청사포 해상풍력 재시동 거나",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSldaSDdSV0VDejFqTmhkT0ZsVnR5Y2pocmFaQWpPS0pRdi00NVJtNjVWX3dmWWg5VThaa2RWNXNhVUVXSHpnZnRTZThfUkdlU0lxbWtEQ1NlYkRhMGZOcF9kdHdibFJvUjBlbVNwR3FmUTBKTmxEM05WSkY2Wmp2WjdjNDYxTlFlUHZWY3R3?oc=5",
-      "source": "국제신문",
-      "group": "기타",
-      "priority": 3,
-      "date": "Thu, 12 Nov 2026 23:40:00 GMT"
-    },
-    {
-      "title": "‘BIXPO 2026’ 폐막…에너지 신기술, 투자ㆍ사업화 가능성 확인",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1bjRrT093X05wME5ZVERuUEc1QlhIZGF6LWh6Z0Q3YjNsdVpmLS1DY2huR2JVbkJTejQzRk1SN0EyMkpmcnU3R2VFMEhKaUoxaW9KWVNaano0emtlVkoxTm96WHVHdw?oc=5",
-      "source": "인사이트N파워",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 01:35:15 GMT"
-    },
-    {
-      "title": "[중국 특징주] 협흠능과, CATL과 공동 구축한 '통합 에너지 시범기지' 가동",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5SZXVXTVJKeUVXa3ZRWS1vQ1Z4N0N4cFlKQ0lPRnNOWDNlQ0p6bkVmam8xYXNNSEVfeXFrYUF2U09hSTRyRlo3NW1oZ21JRmVNTEh0ZHdHTWtwOWY2?oc=5",
-      "source": "뉴스핌",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:33:00 GMT"
-    },
-    {
-      "title": "환경재단, COP31서 아시아 기후대응 공동 협력 논의",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6QU5tX2Foa3NvMTR6aVVralFSTENsTXE4ejlOYzVsNmg0YTl6ZmFLT0FhQldzcmgyTmJGdi1ET05KT2JqUnBYN1E1Uk43VGxNR0RqRlNTMUtlYnYwaWkwZWtnSQ?oc=5",
-      "source": "국토일보",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:40:00 GMT"
-    },
-    {
-      "title": "나주, 에너지 특화도시 조성 본격화",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAwLVNQRFlBNUpRZUVKTHEzV2dWM293QmdmeGhyYkdwMUhQZEowTDNBS3hyOU1zeHAzTHRxS3I2WXhpMzR1S2FpTWFlRWVfTTVJa0hELTlEQnpVVVlURkVtenJ6WDhWMnY0?oc=5",
-      "source": "환경일보",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:14:34 GMT"
-    },
-    {
-      "title": "에너닷, ‘태양광 발전량 예측’ 기술력 입증… 평균 3%대 낮은 오차율 기록",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2amhvQ1AzaV9sMkQtNGRUbG4xMzloUkpxdFJmcFRxd0VNV3kzaDgtQXBQeldFQnh6M3dwTlV6U296THVoNjFoZVBqLTZ4N05tXzRJOGpmU3k3SU9mV3Jpb2paa0Z3NmVKZE9IMG1wMHQ?oc=5",
-      "source": "솔라투데이",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:23:07 GMT"
-    },
-    {
-      "title": "[초점]기업의 ESG 경영, 지역소멸 해법으로…‘나오시마 프로젝트’서 에너지기업 역할 모색",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5reUVUcTdKeGJxM296NlotUkVDWnctUnJINFFKOFE1MndjdV9wdUdUanM1RUZFSGpZNm4xS2hDRmJtSkV5TGdVM29GWmpOUGlfajRzR2ZGdDNubmZtRWU1SXdxYkJaRWpyamRlNnNYeXhlQQ?oc=5",
-      "source": "에너지데일리",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:40:40 GMT"
-    },
-    {
-      "title": "화순 수동마을, 햇빛소득마을 추진",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1PZGVPblEzWlF6S1BSOW40S1E3ZUVHS0tpY3RBdHhzd0hUaGpsd01fZWdpZGdMeGpkU2NpSXRQTDgtbW4zYTFyekhJT0lDY2Zub2VWQmhUSjk2NW5iMjJlWHFXYlRuYmdq?oc=5",
-      "source": "환경일보",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:14:34 GMT"
-    },
-    {
-      "title": "성층권 태양광 무인기, 7일 연속 비행...\"세계 2위 수준\"",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZX3lGMm44WXgyNTJja0g4bXZUSUJZcE51UlNXWXAyaVJYZDRLSjhxOEVacU9RWUFLdElaR3R4M0NPTEt6VWo4NHM2SXIybUkwanF5aWhFR2M0T0hibW9VZWtpTS15SUxjRG82RHR5bw?oc=5",
-      "source": "YTN",
-      "group": "기타",
-      "priority": 3,
-      "date": "Thu, 12 Nov 2026 19:30:00 GMT"
-    },
-    {
-      "title": "온라인 숲에서 나무 심고 태양광 켜고… 기후에너지환경부, 체험형 기후행동 공간 '굳티튜드 숲' 공개",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSVDdpNlpZcVN0UXpCZk5IVHlWUWVnUlV6Wlp1Z0VINlBsTFVFUFVzQ3NKbEV6Rks2TXlLc2tUbV9pRkJFelUzVktKcW95LU1ZZ0M4WUtn?oc=5",
-      "source": "어반톡",
-      "group": "기타",
-      "priority": 3,
-      "date": "Thu, 12 Nov 2026 23:37:44 GMT"
-    },
-    {
-      "title": "김정환 시의원 \"에너지공사, 천연가스 소매요금…연간 80억 원 손실 우려\"",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE92czgtOEFTVm00WmdNS0g4RFROalFjYndTS0hkT2dPeGVqRFF0MnlpR05TY2ZnbkRoZktmSTZPNy1ES21WMXNoUThvS2ZiZ2FuOEpCb2xfWHQtSS1k?oc=5",
-      "source": "뉴스핌",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:54:00 GMT"
-    },
-    {
-      "title": "모햇 햇살그린협동조합, 태양광 상업운전 설비 확충",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFByNE91WUxwQW02clg1b3dtY0hiVjhaekR3OWdYS19sXzB3RnhwQ185Sk9UeDNpNTBzdzN1U2FwZkwzeTFiNGdaZlpITlc1NTZMQzFSOTVYbmtNOC1jX0pXdDVSSQ?oc=5",
-      "source": "국토일보",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:36:40 GMT"
-    },
-    {
-      "title": "GS건설, 자회사 에너지머티리얼즈 채무·이자 대위변제",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1qel9QVHY5SXd2R3JMNlVhS0lZT1ROUTN4Mk1qaUJqWUJJRHl3OE5tMVdJMzAxS2tRNTlzdEhuVkRYVzBUYjZNblhDWTN3WmVuYUlXa0ZOTC1KZG1oOEZpU0swTi1WODV5cy1PcGRkMEdpcU1m?oc=5",
+      "title": "한-네팔, 기후변화 협력 기본협정 체결…온실가스 감축 협력",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9NUFA3M0NwaDUycmgxcFltbUszOTdUNFVNTVBPV2UzbU4tbFNGR01JZmlPNUtaUXJnaXZPN0lTZndnZ2ZTUU9INXoxWFRnY1ZQaVV5Qzh0U3EyUDFCS1dWcFROUU5VOG9wMEF5WVI4RnVpMjlK?oc=5",
       "source": "연합뉴스 한민족센터",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 01:15:09 GMT"
+      "date": "Fri, 13 Nov 2026 23:13:28 GMT"
     },
     {
-      "title": "한국, ‘2035 전기화율 35%’ 국제공약 지지",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9MMEJ2dlhZa2pieGd6TzdmZ3hxTzlweEJGS3Z1MWVtRHdObllYdnpvTkVOMDZMNWE4UkFUZHlXaFJuRTloeFMxWFFnTkhleU9CMDdjZ2M2MDN4c1JuUWI1Q2NWcEpZUnVj?oc=5",
-      "source": "환경일보",
+      "title": "한국형 자발적 '탄소시장' 논란 …시민사회 “졸속 추진 중단하고 원점 재검토해야",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pY0pHSktmdXN5TENILU5mWGw4eXF0bXJVNVdSY3FUR2kwNGE1aGZqbzFVQW53TWpFUkVkVFJiQnY4VkhOYkRLM1pUbXVyWVktUEtqSnNHTEpsZXZRd0FfVE15SGgtR1ZC?oc=5",
+      "source": "한국NGO신문",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:14:34 GMT"
+      "date": "Sat, 14 Nov 2026 01:08:48 GMT"
     },
     {
-      "title": "최태원 ‘한일경제연대’ 실행 구상…에너지 공동조달·AI·반도체 함께 투자",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9jVU1keHp1Vko0dTlPcnFjcDJzMnBGbkpZWGFVX1JMbWVMSDllZ1Vpd3hsbTRJVW5oZGZOaDJ5bU44TEFsZ1JpQzd1emttZWJuYk1wNFc2czJXbTZZNFc4RUg4QQ?oc=5",
-      "source": "에너지경제신문",
+      "title": "지열·수소 신에너지 기술 선도하는 '중헝상넝'을 가다…",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GWDlMMmtfUE5aR0NpcWNsQXdPN1pZYlc4ZHZBNlFlVUNSUTNBZVRIVXVfSzd3VlRNamJmMnZqaTlwcmVBR0ZDLWJMNEZIZURiWE9LTzFtSjJWUnAtMDBsbzdjRUtXcTQ?oc=5",
+      "source": "서귀포방송",
       "group": "기타",
       "priority": 3,
-      "date": "Thu, 12 Nov 2026 23:43:17 GMT"
+      "date": "Fri, 13 Nov 2026 23:21:00 GMT"
     },
     {
-      "title": "동서발전, 산·학·연 협력으로 통합발전소(VPP) 발전방안 모색",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ZWHVMaWNXMUR5WXhna0tmOTY4TERaOVU1RjVrbW5hdUNIVTdsOS1BMV9qM1pvMlROTmUyNVQwNWZpY2tTVnFIel9ad0t0MnFnWDRtcEY3eFpBVUhwWFkxOXZEV3M?oc=5",
-      "source": "일렉트릭파워",
+      "title": "미국 최대 규모 폐광 활용 태양광 사업, 1조 규모 1차 금융 조달 완료",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5vSEFUVzRQRW5BRjl5TXBKNHUxSXJDZFVsY3owTDA3TVRlbUdBUDM4RmpOTDNHR0hXS3lmVGF4Z1JQR1pySnFjR05lY0xEa1czQ3hMR002aVVlUVpQZ2ZuTlc4NUpueGU2b3c?oc=5",
+      "source": "AI타임스",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:44:00 GMT"
+      "date": "Sat, 14 Nov 2026 00:15:00 GMT"
     },
     {
-      "title": "태양광 발전량 예측 오차 3%대…에너닷, AI 기술로 전력시장 경쟁력 입증",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB1SDBSOGlLbERzRnYtVWJoeFlpS2tMSlhWaURKdWNEYUtBTjhzT1BfRkxTWGM2Z05OVTZoRElydTFCM19aN29Qb2FWYXFYdG5mTno2ZU5jaEowbGtyNlVzUGZhMC1MWXg2LU9MWA?oc=5",
-      "source": "뉴스탭",
+      "title": "동서발전, ‘울산 부유식 해상풍력 사업’ 협력 강화",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE53UDhBRnA1dWlKZEN1TGRCSWxSa28tMGxsbEo1MktpMU1zbk5TdUNYTzIyZlcwbFM0LXlzNVJDNlEwSm5ESmFRd1FJT2ZHUGYwNnNmNmpPT0QxYVdEQVI5VHVPcjFVb2lfME5mVnhucDVkSTB6VFh6bA?oc=5",
+      "source": "부산일보",
       "group": "기타",
       "priority": 3,
-      "date": "Thu, 12 Nov 2026 23:29:39 GMT"
+      "date": "Fri, 13 Nov 2026 22:20:00 GMT"
     },
     {
-      "title": "가톨릭대 김준영 교수팀, AI로 폐기물 에너지 생산 최적화…실제 실험으로 성능 검증",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tX3JBckpIOW5sa3NKbkpYRXgtYXpKenFXSmhnYjFQUEdGbkFPVHNzNUxNeDZJbEgxVWdXX0JxR2UzMmM2V25LQWpwdm5CVExnYU1qU2ZtUGJOa2UzYmNuUmI0NklPQQ?oc=5",
-      "source": "한국대학신문",
+      "title": "[에너지 오디세이](20)덴마크 오스테드의 교훈, '공룡 발전公' 녹색 전환 성공할까",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1NampycUItZVZ3UDZYeWRQNjRfNnllNFYtdDBvbWFRNy1tOVhmZS04azVyR3dPQnhVQllJeUt1enFSM2xhc2t2MkRkYXhLS3BPTG80SzBOVUFmc1FpUWZiZg?oc=5",
+      "source": "아시아경제",
       "group": "기타",
       "priority": 3,
-      "date": "Thu, 12 Nov 2026 23:45:03 GMT"
+      "date": "Fri, 13 Nov 2026 23:00:00 GMT"
     },
     {
-      "title": "햇살그린협동조합, 태양광발전소 1427개소 운영",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ybVFlQXN0LXJmSG9zUWZqZXlTLWt1MldoZENPQ1pmNC1ma1NzdDdhNFZaR0VsSzRQdENyRGQwUG9LN1FxSTg1VjNoamlTaTRkQkJqVjFaZThjUEk3YkhWOHVIcDl4R3pvQnNZYw?oc=5",
-      "source": "투데이에너지",
+      "title": "태양광 전기는 왜 버려지나...재생에너지 100GW의 숨은 병목",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9JVU5HU253aXpKYWZnZXlzWEtGQlA5RDR3aTMtTHJUcWdBbW0zX2hETm9QSC1SUEtGZmpMeXpZdTBsblZwQldpTUZWRmdYM25YbGVCaGpLYkZoNXBrTFJTMEl4emxCTXFDOXkwcXZn0gFyQVVfeXFMUENaYlljXzFNWERkLU5iYXNIcWp6MTlKRmltcGYybFJNWVZCLU0weThNYVY2RHNGbU9IcWZqZEFTcV9oUGVOdmJ6VWk1eTBNYnZ3S3RlWXZNdGlMZjZPRU13a3Q0Qi1ieVUxaHZ6NEEzcGFB?oc=5",
+      "source": "뉴스펭귄",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:56:53 GMT"
+      "date": "Fri, 13 Nov 2026 17:23:51 GMT"
     },
     {
-      "title": "DGIST·KIST, 타우린으로 태양전지 수명 5배 이상 늘려",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRk5YRDhfZldBNTl3M0N2NmN4S1NJRVZpRS15U1dCZWdwZ0x2U1U4ZmtIMm1NektlVEtQaDZxNEthcVhRbUNRWDJTbnNCclJ6WHhPMngxUzVZeWtpNmU2b1NsajNleWR5cU10UzFtM3FtZjdiNUxOcUlIeDFUV1ByTQ?oc=5",
-      "source": "Tbc.co.kr",
+      "title": "데이터센터, 지역 분산과 재생에너지 의무화를",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5kWEFaTkowVFByUXZONURTdDJZWEk2UWVJTUduOS1jeE5idmJVcXB4SjFOWkJJRmpvMFE2WkRWZGtoNzFfbkRzQlAzOTIzNUUxWXpWcUI2Y0JLelZFRmV5SF9DaDZDaGp2NGxN?oc=5",
+      "source": "단비뉴스",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:33:16 GMT"
+      "date": "Fri, 13 Nov 2026 15:53:11 GMT"
     },
     {
-      "title": "위성찬 시의원 \"에너지공사, 고객만족도 3년째 평균보다 낮다\"",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9leW1lUjA3dHNRSk5iSEF1YW5FaDVXMXEtdGN6c2dCTy1vNzlvN3dYOVhQajE1alNpU3ZwZHpkQ2lQX0JlWHJpYmRkdy1PY2NWMUpEWE82ZC1OcVZP?oc=5",
-      "source": "뉴스핌",
+      "title": "한·아프리카재단, ‘2026 글로벌 액셀러레이팅 in Africa’ 기후테크 성과공유회 개최",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5oN1FHSHE5Yl9rVXRvVDlVcUFubndZSXFydXNNYWtOTVRqYWxqTVBvbHVTYXl5VVBjT2loMWdvY0wtNy0zNmdDZ0dvWUREQkE?oc=5",
+      "source": "와우테일",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:51:00 GMT"
+      "date": "Fri, 13 Nov 2026 22:57:07 GMT"
     },
     {
-      "title": "팹은 광주에, 전력·인재는 나주에… ‘에너지수도’ 나주, 반도체 배후기지로 도약",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qOVI3eVowOHJveWRfTzRPN2dfMXIxZGFIaXNCUVFlQUVSNUN6QVd5RERXWFEzNUtBRmNPU0F5VXlXQ1RTa2JKeFg1OUFjOWp5TkY4MzhHVEFLejl0WGw3VU1nWEpoR3hlQWhPRC11SXg?oc=5",
-      "source": "솔라투데이",
+      "title": "켄텍, 반도체부터 핵융합까지…에너지 특화교육 강화",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB0cTl4RjhlZXVhMkhJZ1VobldWczMxWmNiSUlPdk5yR3VwZExrU0FOYTFTSjY4bUo1MGZCcWtNWWM2NXJrTTNIbk50MDdzc0xIVzhPeDM1dlY1Y1pVaWZ2clM2MGVLQ0JhRU1GeFYwc1d5T2ppaDJJX9IBeEFVX3lxTFB0cTl4RjhlZXVhMkhJZ1VobldWczMxWmNiSUlPdk5yR3VwZExrU0FOYTFTSjY4bUo1MGZCcWtNWWM2NXJrTTNIbk50MDdzc0xIVzhPeDM1dlY1Y1pVaWZ2clM2MGVLQ0JhRU1GeFYwc1d5T2ppaDJJXw?oc=5",
+      "source": "뉴시스",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:23:45 GMT"
+      "date": "Sat, 14 Nov 2026 00:00:00 GMT"
     },
     {
-      "title": "LG에너지솔루션 버테크, ESS 운영 최적화 플랫폼 '에어로스 인텔리전스' 출시",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4yWEJMMkgwdGpPNjBXVnpaenRNUDU3c1lIN1J3ejk1MjluWWFGX2o5VWQ1Q0kwNllqMHMwOGZycXBDTlVXRmRWNEFpOUVSbnFQQlJuOXFqUmU4WkV2SUZkNQ?oc=5",
-      "source": "더구루",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:15:36 GMT"
-    },
-    {
-      "title": "한수원, 제주를 ‘그린수소 실증 최적지’로…산·학·연 50여 기관 뭉쳤다",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE81MnFZRUk2M3N6MHpyckpsb3A2THJHaDU3SGRXLUYyd0xkbmNhYk1nTUZZS3Vfc1pHSE5pZnp2NUwwWFRYR2pMd1hzLWlxSU5WYkhJM3BLakptZENYa1VDNlJpRVM?oc=5",
-      "source": "에너지안전신문",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 01:34:15 GMT"
-    },
-    {
-      "title": "지영일 경기도의원, 기후환경에너지국 행정사무감사 “경기 RE100, 발전량 기반 성과 점검 및 중·장기 관리 계획 수립 해야”",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ta0lGMGNwMG5Fb3pRY2hDeS1kT1FPNmpReFFTUkl3ZEl2YWswQTAxWk1nOEtNZnBZLXNvTExxdjUzNEp2SVkxYkczcmN0ekEzczhwRk5YbmpsTThBdGZhR1h1SENCQQ?oc=5",
-      "source": "화성저널",
-      "group": "기타",
-      "priority": 3,
-      "date": "Thu, 12 Nov 2026 23:47:16 GMT"
-    },
-    {
-      "title": "사이언스타임즈/사용자메뉴/과학기술/기초·응용과학",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxON0RXbG1RSFVlX2FZZDk0VnVVVXE1Vmd5Sk1iejJjRGlEYnhsTXdwUVF0VThKOHowMktUWXRDTl91amxCU2dRR25zX0JzMTV6Mk52NDBWcUNkbWI0cXBEMzJBVkhsRXR1emdZVllTaHV5QjVjNnYySkNOWmxjYnhXRVJJc2pjTmVfbXZ5aUZJVQ?oc=5",
-      "source": "사이언스타임즈",
-      "group": "기타",
-      "priority": 3,
-      "date": "Thu, 12 Nov 2026 22:00:05 GMT"
-    },
-    {
-      "title": "시흥시, 시화방조제 태양광 풍경 담는 전국 사진 공모전 개최",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85OXZQUks4YWx0dFZ0STFKcjB5OEpCaU5jdFdpS2Q4SmFUeE9ick5BSUNkblRlRHFvemJoQ3poVEtLelQwd2loVHJzSldFTHg2SWxrbzZHbzZZTlZvVGRiS3I2aHYtNE5WeGFoZHhBQWE?oc=5",
-      "source": "신아일보",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:15:46 GMT"
-    },
-    {
-      "title": "中 자주 개발한 중소형 태양광 드론 첫 비행 성공-Xinhua",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBJSlpDcEpRNU8tUHVVTjJGQy1zNW42LWFWWUJaNWFQM2R4U3RpM2tQbEF4MWVHVjNaLTZFMXNPQmNETkVWejl2UHhVZndnM3ZPbjZFSURBSWRNZndXZm9sTXNmaGlzdEpKOE5HREZkN1hTM1pZ?oc=5",
-      "source": "신화망",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:05:02 GMT"
-    },
-    {
-      "title": "한전, 전력망 입지선정 100건 돌파…송전망 확충 속도 낸다",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeTRDM1dndWFzZVZWVGs1QVpyOVloX0hZT2VqUGtFOUxXYWphTm54a3NfRW1kNWNCMnBSRk1TVHcxRkVOZUxWQ1FkTC1UcTlFU0JLWXloREdROFRtSmFZSkJxRHlzQ29aNlB3TDNsa3FsMWFPaGFLNWZfMFZrMlU3RTZFVDJBa00x?oc=5",
-      "source": "글로벌이코노믹",
-      "group": "기타",
-      "priority": 3,
-      "date": "Thu, 12 Nov 2026 23:32:32 GMT"
-    },
-    {
-      "title": "美 태양광 최저가격제 한달 앞으로..한화·OCI 수혜 어디까지 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RRjRhX3g0NVRzcVdnS3pFeEJxM05RU19IMGxHa0FHcGtMZF9RQmhMWVJJY1JKRkkxemFnakZwVnMxbGtiRFpPeUwwZ2tERWFibDhwcEpfckpuOFZkOEdOSWVFU0s4V2E3VEc4etIBckFVX3lxTE5ZZTNqMWxRMktGWm1PajIxZldUVGxiQVN0RTJfRjN4TDduMHBKWEQ1R1dPYkpvbmo2bEFJelU1RUdFQmxhZ3FmUHpreGlnZUhtMTFOM1NHTG9reFgzM0w1WWtDVndaczdzWG9HUlV5aE9adw?oc=5",
-      "source": "머니투데이",
-      "group": "기타",
-      "priority": 3,
-      "date": "Thu, 12 Nov 2026 23:37:27 GMT"
-    },
-    {
-      "title": "시흥시, 시화방조제 디자인 태양광 사진 공모전 개최",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE04RERXWTZzT1NkUXJvektzSUp4QjBqRklUN0xuVmp3OXdZTUxWeUUyeENOdm4zcHpMeWtmbDVoRW9LYS1JTzBsXy1pN2V5aHJnUzE3T3JaM25jc09CUVFDRXpxdDNVd19mMGNB?oc=5",
-      "source": "프레시안",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 01:24:49 GMT"
-    },
-    {
-      "title": "현대건설, 알제리 국영 에너지기업 소넬가스와 회동…기존 공동사업 진척도 점검",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa0hkOWJnSnJPVXYxRm1MUUZucFBhbHdSODVjd01HdzU1Y2pBR0JfbjAtSEJWUTN1MXNreTRPdGZhd01RX3ZIdEs0cUV5MmQzLXN3UnN2QllVZGVMUHR1QjlVZXRTSFJGTnZsZ2NRaWJkODllUEFua2hyQ2M5VE9LVWFGY0F1NlJS?oc=5",
-      "source": "글로벌이코노믹",
-      "group": "기타",
-      "priority": 3,
-      "date": "Thu, 12 Nov 2026 22:01:59 GMT"
-    },
-    {
-      "title": "10월 신차 10대 중 6대가 신에너지차...판매 비중 64.3%-Xinhua",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9feUJQS1lldVM0RXRPSUpsWGt3ZGRGNWEzRl9rQlNXSm9sZjd4RTEyN01JNGZqYjBTZ01HdExBcmVUUEkxUko5ZU82NVRpRFVrejNqcFhyV2Y2NFBLcnZ5QXFCaXVQN0lPOXktY0R3VEE2ZEE4?oc=5",
-      "source": "신화망",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:10:57 GMT"
-    },
-    {
-      "title": "[단독]OCI, 美 327MW 태양광 사업권 현대엔지니어링에 매각",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE85OUdWMS10T3Z1UFRxbjJjR2NFSjltRUxGVHBmMlpRdTR5ZGdrVzh4OXpjTmNFSzZqMGZLMkZaWTlLVlhtZ0dQYURXQWh6SUdOckkzZ0FVSHI?oc=5",
-      "source": "더트래커",
-      "group": "기타",
-      "priority": 3,
-      "date": "Thu, 12 Nov 2026 21:29:05 GMT"
-    },
-    {
-      "title": "이상기후 견뎌낸 농업인들, 서로의 노고 격려..제31회 당진시 농업인의 날",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBENU1xRmw3MkJaM1VfcXpJWGxfSHBFdUtaTjdIc0kzYTU3eUpQd1BUMjBxemJkTmZKYmRBWTBxcVFRcGktZ1dONHh1Vk1GbURDejY4b1JpdS1tUjFFLTVoaDZRTkZ4SUdY?oc=5",
-      "source": "당진신문",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 01:21:01 GMT"
-    },
-    {
-      "title": "한수원, 제주 산·학·연 협력으로 그린수소 기술혁신 가속화",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBicFQ2dTRoRnlzVWN6YzAwZmJMWGE0N2FDbmpHMXVmcFVTQzRRTkY2eno1c0loTXd2THdEbVpBc3FwVXppMFplWDNzelo1NmliU013MUg5MlZiZXozUzNGUzlrR0ZKQzd4N1VGU0ljNjVrUQ?oc=5",
-      "source": "에너지데일리",
-      "group": "기타",
-      "priority": 3,
-      "date": "Thu, 12 Nov 2026 23:00:00 GMT"
-    },
-    {
-      "title": "김미경 도의원, “기후행동 기회소득 앱, 개편한다더니 사업 종료...의회 보고과정 충분하지 않아”",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE12Q19PTUNMZDRmaWFXbGZ2WFJmNVlVdHp2R1BSZ29oY0pqbHpqQlNJdl9IV2QtZ0RSalZxN1hDN182MGEwUFpFVnk1cHk1RGZhNHFQdkJZSXFJUk9OaUZNVElTXzdYdw?oc=5",
-      "source": "화성저널",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 01:29:08 GMT"
-    },
-    {
-      "title": "영국·EU 에너지 정책 밀착 시 전기요금 인하와 에너지 안보 동시에 잡는다",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlQ0JZaURaajZGamgzcXBtWTFNZjFieGxDRW9Vc2V3SmliekFkcDRWTHE5b1Rkd2NGOUdDZEpiN1JBNHBoUzJtdUhoMHJZbW1SNGlabnJfbGIxWUhYUVY5T3FkajJCTGN1?oc=5",
-      "source": "https://www.2news.co.kr/",
-      "group": "기타",
-      "priority": 3,
-      "date": "Thu, 12 Nov 2026 21:16:21 GMT"
-    },
-    {
-      "title": "안성시, 시민과 함께 기후재난 대응 역량 높인다",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1YVEpPTlFLSlAzNDZla2VPczM1X2Y2ektKbjFMSzdBNDBhMXNramwtdlFubjR6cF9CY0NiZXIyUklKU3Y1XzJDU2ZrYmR5SFFyTUc3U2tmWXBKSzR3cXcyLU9KVkxHWmE1S3hNSw?oc=5",
-      "source": "시사안성",
-      "group": "기타",
-      "priority": 3,
-      "date": "Thu, 12 Nov 2026 22:07:50 GMT"
-    },
-    {
-      "title": "한전, 주민 수용성 높여 국가 전력망 확충 속도 낸다",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA3RTRRRTB2aTlnQm84OFphZzhXUFBFRlozSE53VWFfYkgyQjRPeW1mNGJzV1l4dWU2Qlhka0tCaVhMWHl4WWcxcnFjZTdOQm05N3IyTkhrdlJvcFRGYWlJMUZ1Ry1pRTlRaG44cTl3YXdqdw?oc=5",
-      "source": "에너지데일리",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:49:25 GMT"
-    },
-    {
-      "title": "농지 규제부터 태양광·수해 복구까지…윤준병, 해법 찾기 이어가",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYUJfcmRzd0czVjE3OVhLX25ndlhuZTRiRlFpMTkzOXlnSFV0QkVlX1M5MXBKOXJyNGZjYTJSQUk1TTdkdDdnVHlSaFU0UDRZR2xfQUlpV2E4YTVzNGN4Y2hVajFPYnNHaWtXZ0pZUEE1Qk5STEZqT1BRSk5vMTFJeA?oc=5",
-      "source": "주간해피데이",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:54:00 GMT"
-    },
-    {
-      "title": "악취·에너지 낭비 등 축사 문제 AI 기술로 잡는다",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MSkdvNTJwMlk4LTBZMVZLbml6S0pKRXBIb0tIcDhyRDBKUk5rRXBlRndWYXpJTHFxV2ZBMnRLbVgwUnJfaU4xWThPVUIyVDdQX2Q2SWxkY3VZZkp3U1NOMkV6WmY4azJ0emhmUg?oc=5",
-      "source": "기계설비신문",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:00:00 GMT"
-    },
-    {
-      "title": "충청북도, 기후위기·인권 교육 실시",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ocEpQVTQ0SXRsNnNLMnZ1eEJnVUtibkhkdjV1Z0tZV2lILUF5ajN5c2JzOGdRdFlybW1iS0NSb3UzV3JiNlM3aXVaMlUxN2NmdVpfX1lqTFVaaU45Y3Q0dnN5bVdJU2ctNE82cA?oc=5",
-      "source": "K-Life TV",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:35:59 GMT"
-    },
-    {
-      "title": "시흥 물환경센터·클린에너지센터 보안관리 허점…외부인 무단출입에 안전사고 우려",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qeHJoYzU5QjVKd0hrSm45TllPbGZ5dlZ0Qy15a0gxWWpkRm5OMUdfZEFOV2lKaTJyZlRWdG82Q0dLS25IRk5GaTFXQjl0dWpTOC1zT3ZhbHMxOTQ?oc=5",
-      "source": "경기일보",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 01:35:50 GMT"
-    },
-    {
-      "title": "(월요객석)배전망 ESS, 전력망 공간에서 시간을 사는 법",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1nTnlYeTVEdllTdlF0UmRQZG9Ub1R1a3FjZkZVd21QT05IelhGZDE3b01sWDJOVjlPZEZnc0p3cTZVNnUwY2JYdnhmQ180aHVtcGlGQktNbFBlQjhDcUdsM2dKeXZYMHhZa18zQtIBcEFVX3lxTE96ZUROUzNFNzNTTVRRUWg4R2c0WkNlQWppZ2lMRk9ybU42elduWmcwdG45WTZaYWpVb3A2bGVISzk1M3hxZjZOQUQzX2xCLWRZaXlCeHNZbnY0Q0Y1VVRwaHNfdmotYmRUd2JTeVZRVWU?oc=5",
+      "title": "동서발전, 울산 부유식 해상풍력 기술·금융 해법 찾는다",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9lTnZUNDh5TXNNSTJGWmFnUEl5dU1ZZ1cxVlJ3Y1d6bFBTSFliVFUzeEY2RjBIa3FvdHlWWTV1ei04ejlCYWQ5ekNzSHNWbE9zSXozMjNZZDl5OTVPVWljTU5GUE9jdE8wc1Q1dEZoOUjSAXBBVV95cUxPZU52VDQ4eU1zTUkyRlphZ1BJeXVNWWdXMVZSd2NXemxQU0hZYlRVM3hGNkYwSGtxb3R5Vlk1dXotOHo5QmFkOXpDc0hzVmxPc0l6MzIzWWQ5eTk1T1VpY01ORlBPY3RPMHNUNXRGaDlI?oc=5",
       "source": "전기신문",
       "group": "기타",
       "priority": 3,
-      "date": "Thu, 12 Nov 2026 22:53:23 GMT"
+      "date": "Fri, 13 Nov 2026 12:38:03 GMT"
     },
     {
-      "title": "경북 고령군, 기후변화 대응 주요작물 연구 용역 중간보고회 실시",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB4QUwxempPSTY3dDZDZVZhNTZ3V0Q0cEdpY3lqQnhzeHNUeV80NXBmUzFONFJycjZPQ1RqWFBuMU9fcnpHMlpXYUhJby0zQTl3NlJPMmNNM3BKYU9WckJjdU9QNXNIWDJ5M1pKQw?oc=5",
-      "source": "농수축산신문",
+      "title": "인천도시공사, 상수도사업본부와 태양광 발전사업 실시협약 체결",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zQzhHWWRWWmc4dFBLSENRZVBxVE1ycVlEMVFtdkU3UElHZlNSR3lXdmVDdzNUVDNlcm1Rc0pJODItZXo4TzZYN1JwRW94LWo2QTlvNHQ3S1k4U3ZGdkNYTld5ak1fa082cmc?oc=5",
+      "source": "경기도민일보 미디어",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:13:07 GMT"
+      "date": "Fri, 13 Nov 2026 20:23:33 GMT"
     },
     {
-      "title": "강금실 대통령 특사, 제31차 유엔기후변화협약 당사국총회 정상회의 연설",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBnaUFSR19vbnYtUXFoZVljd01MaDZlQUVaM2lBcWlZc1puaUZZRVNFWE9pUzBVSDJIX0Z4bnYwTE5hbFZHbFk1UVNxbjRNQ3FMcDlBT3NLT3ZUYWFtUkdCQlp2Wk9LaG9WNm0xUQ?oc=5",
-      "source": "메가충청뉴스",
+      "title": "최두호 시의원, 도심 태양광 확대·전기차 충전시설 위탁관리 강화 촉구",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5VOGpaYl82dXhhNnE4b2pjUmNQdkZvOS1vQmlxWGJQVzY2Z1ZJdjUwREtCYjZQQUFVaEdJWjZHeG43SmlpU2Uxc01hTHVPRXlRR1FUZA?oc=5",
+      "source": "성광일보",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:02:55 GMT"
+      "date": "Fri, 13 Nov 2026 23:18:00 GMT"
     },
     {
-      "title": "복지환경위원회, 기후환경녹지국 행정사무감사 실시",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5NcTJZRm5fX0xGNjRBQ05kTXF0UEt0RHlqb3lpVUE3bE11UHhpYklzRUkwRF9MbjBjczBDd2RuNnJHczA3UlNUMDRjend0d3NHWXFDRHVhVXV2anNTeEI0WnlxbVZ0TUl6QmpPRW14WXE?oc=5",
-      "source": "신아일보",
+      "title": "재생에너지 사업, 금융기관은 무엇을 보고 돈을 빌려주나 [지평 기후에너지리포트]",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5pdGpidGFZbndSMEhtNVdqVl9hekx4TENiY1MzTTA4U2dQaHNXU09CdlpwWFhaMjBpRmVLNWpNMzBfX2w2SEtoWUxIV0N1WWpEUU56RQ?oc=5",
+      "source": "매일경제",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:29:25 GMT"
+      "date": "Fri, 13 Nov 2026 22:00:00 GMT"
     },
     {
-      "title": "내포그린에너지, 올해 137명에 장학금 지원",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5uMUd4b1V0SG9BeG8wOWQ1Y3UtT0FFaGhnUy1LUEMyXzVwTHpRVkJudU1HLXZ3dGFzZDdsZ3VDTVZ4NUdhMldCR3Q2bFRzRkh3a253bnBJUDlQanVNbVlHeEMycGxoSmZTSGVJ?oc=5",
-      "source": "홍성신문",
+      "title": "신성에너지, 640~650W 양면형 TOPCon 태양광 모듈 시리즈 공개 - 뉴스 및 통계",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZTRTdlJKcVYwTERQSXNCZ3RPak5lQUt6UUVMQTFuNG9tMFlXcF9MU1U0M2oxNl9zQnBmRTV5dUszS0doSmM2MFZuVTlXeXFFY0FScFk4TzhnZUVtMmhQV2gzN01qNEhYTGxGUnE0TEdFWUJTSmQwYWdXVlJiZmFVNkNpRkF5clVWQzd1cmxpNlJKd18zN3JOY05XMExCT21CUlNQdG1kRzQxNFhwUEl1YWQyN0QxSHViQlE?oc=5",
+      "source": "IndexBox",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:10:03 GMT"
+      "date": "Fri, 13 Nov 2026 16:20:30 GMT"
     },
     {
-      "title": "LG엔솔 버테크, ESS 운영 효율 높이는 소프트웨어 플랫폼 출시",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSWXZRUlUydGU2TUNDczdodURrdlJOMHdhSXhCYXFnLXZQaDRRNnRDZnFwMlRTOFVJSUc3X3gtSG5lRFIzYUM2UF9zejVtTDJwWnc?oc=5",
-      "source": "매일경제 마켓",
+      "title": "2044년 중국 폐태양광서 은 쏟아진다… 연 739톤 정점 전망",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YcFFUdWtvdHNqalVLVjdNN2NDX18tTVlxdzBlc2hzQ0o3NDh1YjBzejlvYjNaR2lHNEctb3N1MDVYajJMVldWVTVYaEwxdUVnRGV6V3JSeDlLSVdkR1N3eHU4cnJYTUo3eEE?oc=5",
+      "source": "AI타임스",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:53:19 GMT"
+      "date": "Sat, 14 Nov 2026 00:05:00 GMT"
     },
     {
-      "title": "남부발전, 하동복합 전원개발 실시계획 승인 획득",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8tbTA5RngxRHE5VjVKbW54cnlOcnZvWWpackg2bktBN05KQUF6VEhrcUFPVjMxUEhTU01XNUZPRTdrbW5XMU43MmotMmJTS3hScl9MMU4zOU9rN3pyempYb3dqZnk?oc=5",
+      "title": "러닝과 장보기 모두를 아우르는 온 x 에레혼 '퓨얼 유어 에너지' 컬렉션",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOREZ1M1M0dnV0WllKMkotY2J4VUJjUWFjVk94MUc0MHlldXhsaE9pTlFFRVRTSkFFYml6cEoyejcxRDVRTzBYcWFZdUpKN1prSlkwZ0xPRHFxdGZ1ZGZUUTNfVzBacks3U0Jiekp5cDFFcjFUbXNEeG5JcTh2cEpxLWJOS0N4TXlvTFQzSFVRTW8tbUl2T1hEbnBiaHI3ZTY3c3lQT01uY3N3dERPb0VJQg?oc=5",
+      "source": "Hypebeast.KR",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 07:43:16 GMT"
+    },
+    {
+      "title": "눈사람 200년 역사, 다음 겨울은…이스탄불 금고 속 기후 경고 [황덕현의 기후 한 편]",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE02UVVfQUpfLWtHbUF0VkxYWThYT2kyTWllLTh3Y1F3Q3ZEcmxHMlE0ZjZXbWJpcE0zeDlIUUpNLVhJbDJqN0hYaDExX01zdDFHZGJHX2ZIVDlIWFU?oc=5",
+      "source": "뉴스1",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 22:30:00 GMT"
+    },
+    {
+      "title": "구테흐스 유엔 사무총장, “에너지 전환 서둘러야”",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1vR3gxYUlFSWZORGJYb281dzRoTzhUVHB2TXZfR3pUSDU4dWRqODdpZ3B4MWpQZ2tTTjZJTVlwWnlTSFdkb2FSbWgxZ1ByX3gyYi0zb1diNkc5TzZpM3J5dzVYSHhEbGxu?oc=5",
+      "source": "https://www.2news.co.kr/",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 19:41:37 GMT"
+    },
+    {
+      "title": "트럼프, 에너지 가격 안정 위해 '존스법' 유예 90일 연장...역대 최장",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8ySHp0YnRkZktkemNXZmFPRU9iX2ozUWgyZjBJN1huWjk1cVp3OHItbjdrZ1JuZzkxdm91R2VTQWZLOG9JQ2Iwbnc3WWVia0tmUm9QUWhTMFByd3dWVGRLZ1BLRjcwSnc?oc=5",
+      "source": "M이코노미뉴스",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 22:57:14 GMT"
+    },
+    {
+      "title": "정수장 자산으로 청정전력 생산… 인천 5.7MW 태양광 추진",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE56Ni1xaXZSZzFBZWx4MEliOWNyS3U4TzdINzdOSThvd2VGbC1jTUF0ajRUTG1oVnIwZU1kTkRKOTBmYWh3RDE5amhTWmpOYjR4S1o3RmtacElSVzBteGY4OVNxN3VwTmxha2c?oc=5",
+      "source": "THE인천​",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 21:27:42 GMT"
+    },
+    {
+      "title": "“탄소중립은 곧 도민 소득”…제주, 첫 ‘기후경제수도’ 도전",
+      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPNEdqSWliOVVBU0t3TVpkUUlJaWhGV2pxb3kxUnhGeUNvQVYxQlNlaHVOX2ZtcGw4cE94TF8tQjNuZlgwQnFhNkxURUpBa2xTNFZiQmgwUk9iUERIeUoxRXA0YW9TX1IwQW5UN29ibWxLUk0xT2t4d1dpUkwzaTUwbUc3TXRhT1dqXy1qcTJwWFFCWEg4UDEyMHdQTVFpa2Ztd2hzWldWNGFhbW1tclRFblhYUHA1dk14RHBrN2dOUUJYX3FhbDlSTllLRFA0dDV2TGg4U19aaTFpY1NXQnR6Y2VFdXJ6SjVIS21jWDdZcUxSMjdBNVdqOEhlV3NKQ0kxWmNmRjlrZzdtbFRlZFFGZ0dkVnNwVGFh?oc=5",
+      "source": "데일리안",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 22:00:00 GMT"
+    },
+    {
+      "title": "전기철도, AI·에너지 융합으로 철도안전·탄소중립 해법 모색",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBCNVh2eVRqSV9Cc3FjemtmbHlTaWw5WkI0NDd6T3BaZnIwOFA3SjJ0Y1Zpam5qYVNNMVlWMllpVEtIdzdQbzAtZGxSTWE0MXh5ZUFhcGlVOTA4WnFyVThxV2xvZm9yYUpYakk3VVRhWWLSAXBBVV95cUxQQjVYdnlUaklfQnNxY3prZmx5U2lsOVpCNDQ3ek9wWmZyMDhQN0oydGNWaWpuamFTTTFZVjJZaVRLSHc3UG8wLWRsUk1hNDF4eWVBYXBpVTkwOFpxclU4cVdsb2ZvcmFKWGpJN1VUYVli?oc=5",
+      "source": "전기신문",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 10:34:54 GMT"
+    },
+    {
+      "title": "[논평] COP31 '안탈리아 AI 서약'…한국, AI 강국에 기후리더십을 더할 기회",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFByM0cxY2VrRXF4eWJXNFYwUkZOUkdrMEFidS1QNWtTclNjcWcwU1JqN3JHSjRCWmRoWlZacnc1M1gwOTJxNEF2aFdscTdULXczejY5Mk5ITDN0QzhoWGs0c0xlZjU?oc=5",
+      "source": "기후에너지경제",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 11:43:12 GMT"
+    },
+    {
+      "title": "한화솔루션, 美 '솔라 허브' 가동률 90% 돌파…\"현지 태양광 공급망 본궤도\"",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE13bUNKUUJ5ejV4OExGWlc4elhRMzFtUVFZcS04ZmF2b19SU1FHSDllSUd5S3lBUXhRSDRheFppTVA3dTVualRINHl2UU9HWFNsN2lHZGRmNzN3TlZQNGNKNlh5Rjd3WjJrM2Fhek1ZZW5WWldVczVfT9IBeEFVX3lxTE13bUNKUUJ5ejV4OExGWlc4elhRMzFtUVFZcS04ZmF2b19SU1FHSDllSUd5S3lBUXhRSDRheFppTVA3dTVualRINHl2UU9HWFNsN2lHZGRmNzN3TlZQNGNKNlh5Rjd3WjJrM2Fhek1ZZW5WWldVczVfTw?oc=5",
+      "source": "뉴시스",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 20:00:00 GMT"
+    },
+    {
+      "title": "비행기 컵라면 실종 사건…범인은 기후변화? [이것도 기후①]",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zUHJrMVpUNlJ4bHhvRU1NMVZua0x2UEdsd0JYUWRXbTE1N3J5amQ1dDRsbVRwbkJ3N2JiNHBFY3FZOG5OMmJCZnROVF9PWUpGYWxLbUM5UFI1Zw?oc=5",
+      "source": "파이낸셜뉴스",
+      "group": "기타",
+      "priority": 3,
+      "date": "Sat, 14 Nov 2026 00:00:00 GMT"
+    },
+    {
+      "title": "2035년 변전소 시장 전망: 계통 개보수와 재생에너지가 성장 견인 - 뉴스 및 통계",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQR1FnYjMxY3VBLUtxUXVPTUhrRENWZTBJRWdPY3phSTJfLWZvNTNhOFFJMGtOSHFQcjkwMmJhUjBBenZGd21Lcl92Und4NDNrdG9fdHAzSXBEbjRtX3JEbHRJcFBSR2czTlpvaWIyTjZTclBELXE0MVUtbDJkU1dCeFFWbXhJU1U0bFg3NEx2UTlKekJGZlFLcC1qODFHcVpCM2xtWGJTZXEyLWxvZE1UREEzUXdCVm1jaWUxNGxVVTg3b3hXT1duX2NQdnoyWHpmWF9ZdQ?oc=5",
+      "source": "IndexBox",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 20:21:05 GMT"
+    },
+    {
+      "title": "계측용 변류기 시장 2035년 전망: 스마트 그리드와 재생에너지가 성장 견인 - 뉴스 및 통계",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNLTFHaVpTeFpHLVhSaXFMYXNxeUtqckxIdGFCZzhUUUxnVm1Hc0hjcGszR2t2ZVAzbkRPYWlIeGM4TXNxLU5NLUZsUmh0TVAxaDhtNDhjQ1l6Q2d6NHV1VGFuZkJXMHpEMjFkMlYtcHNRQkJPMGZ0cmdnQ3NrR1NibGhkVjRURVJWdmVpMXRDRjBUOVVCUVQ3MS04TTczNDFZYW1MRXlPanpiV1o1RVVLM3V5R0FQT0hyN3BKVlNxcW5PM0RLejNCejFaSFdKNWlQWEE?oc=5",
+      "source": "IndexBox",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 21:06:06 GMT"
+    },
+    {
+      "title": "[ET단상] 전력시장 제도 변화와 배출권 가격 급등 속, 산업단지 집단에너지 위기와 해법",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1uTzM2dzNfd3lRa2Ntcm1uMThnWHQtdmtEUU9nNUVmc1EtSFE3MFp4M3dYY0VjcjU5Y0l2VmU1dWpRZDFXVEJyOUs1dFl1dw?oc=5",
+      "source": "전자신문",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 07:00:00 GMT"
+    },
+    {
+      "title": "iH·상수도사업본부·제이에이치에너지, 정수장 태양광 발전사업 실시협약",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1CRDlKNHFPcnh4WDNSVGlDTlYxZkE1ZWpYdXJwRmF2eHlubXVteDBQamVCdGtKckNGWkJuS2dYb3VtNHZaQU53UDJuRnZfZmdabllSUHZYMjAtZTdlRzk3ZThnNndfRGczaXQ4SWdERkk?oc=5",
+      "source": "인천투데이",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 08:27:26 GMT"
+    },
+    {
+      "title": "미국 에너지 굴착 장비 수, 6주 만에 처음으로 감소",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKNmI1OHhTUFA5Q3JONWhDZ1RGaUxzTWVIbWhheWVTR0RwUVlzYjA3X3podkNGUnU1eW9NTm1HY2dDV0p0eGZva0dQTXl2eUtRcEFSdnNqa0dzOERhREtSNl9fUkE3bUhUeXc?oc=5",
+      "source": "Investing.com 한국어",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 18:29:00 GMT"
+    },
+    {
+      "title": "국제감축 3750만t 목표에 쏟아지는 비판...“NDC 워싱 그만”",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5nMGhKWG02S2pvRFIwTWhwdGJNOURmLWs3dUowYkp2WXlRYkRDWHNfTlRlRTlKNXpxcTM2dFMzYlROVXNfeWFHcDdNTnBDd2Y1WGVWeTl1RVZrSjU4UlE?oc=5",
+      "source": "기후에너지데이터뱅크",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 09:10:02 GMT"
+    },
+    {
+      "title": "재생에너지 금융·보급, 2조 8000억 원 규모 투자 - 카드/한컷 | 멀티미디어",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTUxIS2l6a0RKcHpUdTRxWlZZOHNVUkJfYmxkTzdjNHM5TkVVa1BUekVzcWZyVEd6eDJBbG9ZYWtXSGFrNHJHZTlqWjVKMFF0b3VIdm5sSDY4ZFN1Mnk5LXRrM1pJUFdUWlRhUnZUR1diWFpvcHhxSzdtTF9iazI0N3BCNEpib0xpc1E?oc=5",
+      "source": "대한민국 정책브리핑",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 05:52:52 GMT"
+    },
+    {
+      "title": "정부 재생에너지 정책 \"빨간불, 빨간불\"",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA1bFZVM1JueUFLZExCbVBiV0luT0V1ZHZEVnVXakZoZ24zYkhTOHUxNUY4T0hENVFHaldGby1MVk8xRlExZnBGNjdkSkhaSjlGQXk2YnNHQm5FZy1ET2dsYU9HUUFJUWNaMXR4VnBDVGZnUdIBckFVX3lxTFA1bFZVM1JueUFLZExCbVBiV0luT0V1ZHZEVnVXakZoZ24zYkhTOHUxNUY4T0hENVFHaldGby1MVk8xRlExZnBGNjdkSkhaSjlGQXk2YnNHQm5FZy1ET2dsYU9HUUFJUWNaMXR4VnBDVGZnUQ?oc=5",
+      "source": "뉴스펭귄",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 06:57:11 GMT"
+    },
+    {
+      "title": "전기요금 0원 시대가 열린다? 영국 EDF가 내놓은 블랙프라이데이 태양광·히트펌프 파격 혜택",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUZm5FZ05nTVVmcGstSk5vRXpvLThRNHp3QXo4WkFOSzhCb21Gd0J5OUdSQi1PNERHVDBEY2xLaW9JSVdpU0dXM1diUkxEOEQxV0UzRUt0ajFDRGppYjctN1dEY1A2Slln?oc=5",
+      "source": "https://www.2news.co.kr/",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 18:20:55 GMT"
+    },
+    {
+      "title": "AI로 프로젝트관리 혁신…에너지 공기업 등 200명 한자리",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmT0JqcVl6MzIwa3pLckE2RWlxVzJ1alN5NlpROTNUcTM1RS1VYWRlMlhrUmE4RUxkb3RNa3c0cVdxRE5qR1JaYk1jQ2Z6aXBEZk5XWTVZR19nRnp5LUN0OFpQQkxaZzFvZWE4czBfRTnSAXBBVV95cUxQZk9CanFZejMyMGt6S3JBNkVpcVcydWpTeTZaUTkzVHEzNUUtVWFkZTJYa1JhOEVMZG90TWt3NHFXcUROakdSWmJNY0NmemlwRGZOV1k1WUdfZ0Z6eS1DdDhaUEJMWmcxb2VhOHMwX0U5?oc=5",
+      "source": "전기신문",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 11:58:55 GMT"
+    },
+    {
+      "title": "\"폴리실리콘부터 인버터까지\" OCI파워, 美 RE+서 그룹 태양광 공급망 소개",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1HRFBYLVpMX0J1OWtqUW5aank1cDI4V19zR0hGeDRLUXpwd1FzY3dZSWZFaExCaWxVazZpYUZDUUlyX1NIbkFjcVBuOVhKaVFCT2RtX3VNNm9iVHBMSldfR1VUc1hlZnhiRVBPSA?oc=5",
+      "source": "전기신문",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 08:44:43 GMT"
+    },
+    {
+      "title": "IV 곡선 트레이서 시장 2035년 전망: 태양광 운영·유지보수 수요가 성장 뒷받침 - 뉴스 및 통계",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONUgzelZpaWxLaUJaN0R1aUhGZEQtRzl6WXdyRFdCcUpqOVRBbUhCNlZOS1hwVmcxcF9uXzJxdHlTX1JYaTF4VURCTW5RMzRyWkxNa2xTUXpZTUJRRmthNkFrVVRtTjc0WDNlVmFOb1UwYlZIcGt4UFhXOG4zYWpqUmN5X2xkYWl6aU16UzZSWElJVmRQSnZ6enZWQnNLNlk5TGYzUklSbWM0MzJkNnNRRG9n?oc=5",
+      "source": "IndexBox",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 20:16:06 GMT"
+    },
+    {
+      "title": "[울산시] 부유식 해상풍력 조기 추진·재생에너지 신속 보급 논의",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBiU3hEMmNaLVpuVkVldUJoVmZBR0xnenZQUUVPN0JSUndLUktGc09iUFpUX0podFhqUkVPekoxZXlNWjNjRXh1VEdKMDhoMVRMOUZ5TldHMEc0X1Zub1JpUE9xUGpuRDg0VEEyNlBfNloycS1YYkHSAXZBVV95cUxQYlN4RDJjWi1ablZFZXVCaFZmQUdMZ3p2UFFFTzdCUlJ3S1JLRnNPYlBaVF9KaHRYalJFT3pKMWV5TVozY0V4dVRHSjA4aDFUTDlGeU5XRzBHNF9Wbm9SaVBPcVBqbkQ4NFRBMjZQXzZaMnEtWGJB?oc=5",
+      "source": "워터저널",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 07:49:48 GMT"
+    },
+    {
+      "title": "디지털 기술이 CIO의 지속가능성 운영에 도움이 되는 방법",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONy1taERZYjFfR0ZOT3IweTQ3ckpCS2o0YkZ4emRjSktHRE9MTlpIaHFyQmRpN1B3WVdPUGJFY0VaSGVDOFo5Qzl1Qjg1cUZwajJHRjV6MmQzbjZISl9NT0N2MDUyT2dEdTRIdjdvdmVwZENUUzM0cmNkZHJkc1BicTBDNkx1c1NxdndWLVhjX192eDlpZzBHSzE2LV85bGV0MTRINlFhWk1NeWpOMjZDRWRRZ2RuU3VGaVo0?oc=5",
+      "source": "IBM",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 15:38:07 GMT"
+    },
+    {
+      "title": "체적 저항률 시험기 시장 2035년 전망: 전자·에너지 전환이 수요 가속 - 뉴스 및 통계",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQamFLb09VSU5iLUNJZFJCQlVXRkd1ZV9NMVJfLUdweTZDSnJWUmZZXzdiR09IdVYzZVY4X3k1X1FtLWhlRS01bXVLWlE3ZDlZYmlTSURzUFM2cXZvVU1LNVc4cEhkdE8wSnVrWVpISUU3Nk5nNUlBTkwtVXFNb3lYdGhWelB5UVlkbFRWMVdDOE92ejlCM0lzcC1tc3NkZngwLXRzWXd6cWdwbXVPNVNUSDdEbjlDdy1BUUJIbmZyei1WUk85UkFEYzRvODNvemJKcTJUdk5FVjlrUzNPT2c?oc=5",
+      "source": "IndexBox",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 20:56:05 GMT"
+    },
+    {
+      "title": "제주에너지공사, 남는 재생전력은 수소로…수전해·ESS 통합 실증 착수",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5xVS1xdFJLR0NDc2RmYkNzSTJtQXJGM2Raa3RoZW9wbFBOcWp1TmVaSVJtOUY4Y3NFMVA3TnRRX2N5NE51UjZxZ2tmdnBhZ05SY1IwVHRlb3N6alNLUzFtc2g0WTFWcmRmTWJvT0U1MVhsZw?oc=5",
+      "source": "에너지데일리",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 08:15:13 GMT"
+    },
+    {
+      "title": "발전공기업 통합·한전 지주회사 전환 추진…전기요금·전력시장도 개편",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBnY2kzemFDVV80Ym5SWkcyb3I5VF9ybngwbFhERjhvcFJhOVE0V3ZRZHBaY25GajJSTW9DVXN2TTF0WDdLY2lpY2dDdk9YTnR3bDNsZlVnQi13SVlydGo5dGZLMlBTbUZGYTZ4WkJzUnZQUQ?oc=5",
+      "source": "에너지데일리",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 07:42:36 GMT"
+    },
+    {
+      "title": "에너지 기후테크 '엔라이튼', 코스닥 기술특례 기술성평가 통과 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1oWTNRNl9vZVJfemZjcUY3a0d6NktXQUZYR2tLQXh5Yk4wYzZWQW8tRm9hQVJlMks1NGVoQUMyelUxTGIxdG0zR1hyc1hqTFVROWlYVEYwcER1b2NIRzZfT2JNLXVUOUJnVmfSAW9BVV95cUxON0FLdXNtV3BzdFpFcHREY1pIVjBlQVlWTjEtY2I2Ump1MFRVWXhIdGxqQlZzZ0dnV29mUHZ6ZTZHeGljVDdMN1ZmcGRxRklSdEFVX25RWENyaGtHMVljay1NdjhSYUp2cmg5Q1RpRzA?oc=5",
+      "source": "머니투데이",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 13:52:08 GMT"
+    },
+    {
+      "title": "스텔란티스 브램턴 공장 매각에 캐나다 총리 \"배신\"…윈저 배터리 협약 재검토 변수 부상",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1nSFdfREVaeXV6dmtsenVGdDRQTzhWLUdhcnVEYmZHMlNxSnVEOFpET2xhbl94aUdMMEV6b3pVMTJ3TVo2TFlNRC0wME5EVGpOQU1lME51d0hYaV9oWGdOR3NVNFFBVVk?oc=5",
+      "source": "초이스스탁US",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 23:07:00 GMT"
+    },
+    {
+      "title": "기후에너지환경부, 제27차 한·불 원자력공동조정위원회 개최",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBkdGRmdFR4bTVpRUdCU1pCQTB1MGFodG1xVWx0aXNDNzNfWlpvZUJ0c3JNQmg3ak5mR3Z4ZUFILUZyS05YQ2RnWll4UURmSWpEdEcxZnctblo0Rl84?oc=5",
+      "source": "누리일보",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 11:50:59 GMT"
+    },
+    {
+      "title": "[BIXPO 2026] 한전, 에너지·환경 분야 17개 기관과 손잡고 미래 성장동력 확보",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8wSmxaTk5ORDBUdklxaHZyVkQ3VE1rbC1iMGVPczc5UG1qbEJNYnF2eno4MVJaOUcxLVJSeVVTS09ObTZsTFVpWUNibFBTS3o3MFJMMVpYWGVXaGl3MngtX2oxX0E3dw?oc=5",
       "source": "일렉트릭파워",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:19:00 GMT"
+      "date": "Fri, 13 Nov 2026 09:17:00 GMT"
     },
     {
-      "title": "최동식 경기도의원, 기후환경에너지국 행정사무감사 “생활폐기물 관리․처리, 경기도의 적극적 역할 추진해야”",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sbVVuYUQtclBaMW9rbklLdXZ6Vy15Y1VjSXVDUF9DRjE1MWNrNmlXNktPVVFTZ1RmM2hlbFVwd3NDWHNCdmIyQkpjZTB1c0FHSUh5cGdVeVB1NkItZXdveFBYYlRaV1Exd0YyRUpn?oc=5",
-      "source": "서프라이즈뉴스",
+      "title": "가톨릭대 김준영 교수팀, 폐기물 가스화 최적 운전조건 AI 도출",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FUE51YzV1cEFLRmZLRzVaSlRBaExCSjJWcURKeVJQNHQyZkVlRkVVZ1lnVVJwSWRyeXFXX280SUVhTUc2c1JVMnAtUndzX01hRXZyQzFB?oc=5",
+      "source": "MEDI:GATE NEWS",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:11:02 GMT"
+      "date": "Fri, 13 Nov 2026 21:33:19 GMT"
     },
     {
-      "title": "관측 사상 최악의 '슈퍼 엘니뇨' 상륙, 글로벌 에너지 시장 흔드는 5가지 충격파",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE80WmpDT1Q4YnJLcThlOEdNanNsOU4wWGZUNkY4bWh0MVBkay1aVnlGLWVSRkRhSDZ4anhMb09ia29jSjVIZXdtYzhKQnh1cE5GYzFfT0RmRDNjLXVPWmZmSWd4dVplZ196?oc=5",
-      "source": "https://www.2news.co.kr/",
+      "title": "강금실 특사 “성장과 탈탄소화 함께 이뤄야”",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKUmp4YUxyc1hQY2lQdWpEZ3pic1hGNGJ5MGkwYWJDZWN3cm54VmN1dGpxN1RPZVEtYno5S095Z3U0RkVYVkdZOUxmNXJvMm9UOTR0c0ZxblBoWktEZ08zQVVfVi1nTEdF?oc=5",
+      "source": "환경일보",
       "group": "기타",
       "priority": 3,
-      "date": "Thu, 12 Nov 2026 20:57:56 GMT"
+      "date": "Fri, 13 Nov 2026 10:08:04 GMT"
     },
     {
-      "title": "김강헌 시의원, “기후변화에 강한 우리 쌀 품종 개발 최우선 해야”",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45VDNLaFpuZ29SUTNIWWdtRHg1TWJJa3VmeUNCbmlQX0txTmpDYWYxelJnaFdMWldYMGRnQUQ1T0NENFFzT3NTeG93LXBNeVc3UUxjamNtNXFaZGwyZndDUFVtZ3BCUFR1VFE?oc=5",
-      "source": "전남인뉴스",
+      "title": "[급변하는 외교시장: 스위스 에너지산업] 노후 송전망 교체에 55억 스위스프랑…전력기기·정밀부품 수요 주목",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE93dUlpaVJla1g0bU93NEEySFlBQlhjeEtYTTB2NnFIV2pyUVgtckNzY2VxOVY3bFNLTUlHXzIyNlpfZmlGZ2c4RFRaeEVoU0Q1NThDODkxYzhPUDQ2VTNuYm9PNlR3cG9VRi0zME5n?oc=5",
+      "source": "코리아포스트 한글판",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 01:22:54 GMT"
+      "date": "Sat, 14 Nov 2026 00:00:00 GMT"
     },
     {
-      "title": "OCI 테라서스, 말레이 국영 페트로스와 가스 공급 계약…현지 태양광용 폴리실리콘 사업 '탄력'",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tRjRYTHBpV081aDlHdlhqYjV2ck5IOHBhUVlKeWNULVBHMlEzX05TRkozQjNhV3ltb0tRbjNST0l4b0d1VU43WmlpSWNHLUxMT2E2aUs5UVRCQTB6UjVaZm91c1I5dw?oc=5",
-      "source": "더구루",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 01:17:42 GMT"
-    },
-    {
-      "title": "김미경 도의원, “기후행동 기회소득 앱, 개편한다더니 사업 종료...의회 보고과정 충분하지 않아”",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1XSlI3MWdBUzNvQ2tIQ19zN2lXa3lneWZySzFpOUpBZXpZM080WHdTbkJwNE9kX2publhzT2ROT2xtYlZuclJMelVRbGM2cFlEOVc4YnhkNjNFT2hYZlhJdEJkOWJQRFV6?oc=5",
-      "source": "경기시사투데이",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 01:08:04 GMT"
-    },
-    {
-      "title": "노원구, 기후에너지환경부 지정 ‘2026 환경교육도시’ 선정",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wcXp0OU1CUnRkU1RNRE9INlhhUWJOb3VNM1d5TmdZN2JueGh0bUlHcEhYc252SDRKYkRrekF0TGJVcHdYdXZxVHFQQmlVMlVCM0FYa3RZbXdJYTVETGFSeVBZdTRfWV9Db1AxczRBaw?oc=5",
-      "source": "뉴스파이어",
-      "group": "기타",
-      "priority": 3,
-      "date": "Thu, 12 Nov 2026 22:40:29 GMT"
-    },
-    {
-      "title": "[인터뷰] 김용호 서울시 전 의원 “용산 유엔사 부지 네 번째 오염…개발보다 주민 안전이 먼저”",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4zalpCZGY1NV9mMzd6bGhwaGY2Y3pnTy1adWk0UzFIUzRLNVoxVnhtR1hITVhIMUx1MTZzekUxYU1vcHhPclFIaGFJT21ZblpRZFdjb1JjUUJ1dWo0MlhHb213?oc=5",
-      "source": "에너지경제신문",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:59:44 GMT"
-    },
-    {
-      "title": "중국군, 부상병에 원격 응급약물 투여하는 드론 개발…태양광 무인기도 첫 비행",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zdzVodmZxb2I1Z3JQWkt1MldhbWkydzFnUl9vNlZJWlVTYnRjNU5KUXpwM21PdXNpWkVnQW5SVllwc2RTTFBoSGhLNFdaT2tkSGVlN21KamY2QWhITU15dGRpank?oc=5",
-      "source": "드론매거진 뉴스",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 01:18:54 GMT"
-    },
-    {
-      "title": "송규근 경기도의원, “기후행동 기회소득 성과, 경기도주식회사의 지속가능성으로 연결해야”",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1iWXo5d1dyVm9saUpHaWxFMlBMZXlSMGsyNTMyLXE4WkpidFJBOWF2MFE3cmJQQTN4dVVvN1BpQkZnbzBlUVZPZ3M0c1gxYzdNV3hiS1FpRUJCc1ZKSENJWEVGVWcxUUhqcGNfOWp3?oc=5",
-      "source": "서프라이즈뉴스",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 01:28:42 GMT"
-    },
-    {
-      "title": "\"100% 재생에너지 요금제라더니 화석연료 전기?\"… 영국 소비자의 81%가 배신감 느낀 이유",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoN19EMnl1SUlXTG5KUmhjb3VuN2RWQlVrd0NBMDBpeTlNcHd6NG9hQ0c2Vnc3cUJZS0t4bVJaMlJ0a2N6SHpiaklFZnk1TzhVM2ZMWHo1b3dLVEpKUGFzWjhSSU5GYWRI?oc=5",
-      "source": "https://www.2news.co.kr/",
-      "group": "기타",
-      "priority": 3,
-      "date": "Thu, 12 Nov 2026 21:30:22 GMT"
-    },
-    {
-      "title": "[경북] 기후위기 뚫고 K-농업 미래 연다, 경북도 ‘제31회 농업인의 날’ 성료",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sWVhYaV9vUTd6RlZXNUN4Tlg2Zkc3azJVTEhUN2JncmY0QlNXRnFBZFMyRmZMbzBJa0ZVY1I4azZQUkdMV05CNDFqZUZJeFFvOVRDMWNrV2RubXJZc1RVZEVsMWtCd3FVSTFIWTdrekktUQ?oc=5",
-      "source": "월간친환경",
-      "group": "기타",
-      "priority": 3,
-      "date": "Thu, 12 Nov 2026 23:04:25 GMT"
-    },
-    {
-      "title": "시흥시, 시화방조제 자전거길서 ‘태양광 한 컷’…사진 공모전 연다",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WSnphT2pidDNKWjhCdDRJZk1ZWW1sZGxaYmttTFhtR01IM0hvWGNfcHVESU9TV2VjeVdSSjU5RThsMVZ1TTUtZndad3ZTNnk0Z21HNGpWVlBZY1R5anlRaQ?oc=5",
-      "source": "아시아경제",
-      "group": "기타",
-      "priority": 3,
-      "date": "Thu, 12 Nov 2026 23:37:17 GMT"
-    },
-    {
-      "title": "화성시, 폐전지 수거 전국 1위…기후에너지환경부 장관상 수상",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zNEN2QWEtVm5xTjRfT2gzU1RyNkl1Yk5Ec3BIYklDZDZicWh3cmZJTzVEbG8wY3pLbnRfQ3J4U2hCWnJpUVo4Sm9LMGJMb2tIdEF6aE9sTkM1ckR0ZWpyMA?oc=5",
-      "source": "아시아경제",
-      "group": "기타",
-      "priority": 3,
-      "date": "Thu, 12 Nov 2026 22:16:33 GMT"
-    },
-    {
-      "title": "CDP, 빅테크 환경공시의 허점 지적...AI 데이터센터 탄소배출 정보공개 기준 논의",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBhTElhU2lKVTlHVEdKVGcxTFNyb2pGSVRqRjAySm5Cd052RGxQLTRVSTJOUmpMSHpqTUc3WFhUdGRFNjc1cEU2NVJDRXdNYjlkWm84OExFTWhMZjV0aEVfX1I4Q0NGcTByQVE?oc=5",
-      "source": "임팩트온",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:50:10 GMT"
-    },
-    {
-      "title": "문경시종합사회복지관, 지역사회 연대로 기후위기 대응실천",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8wYzZZNGx4bHoyVHByTlA0OWNBQnM2d09SZy1Ka1lndW5veTE0bkV1US0yaF9CX04xUE9MNG1nZnY1VDhHVDM4Z0dvY3R1Z0VyVi1fOFVIcVNYUWNrZ0NKN1RVODRQNDRyRnd0TGI0TThOMDJRaWlsUkFHdw?oc=5",
-      "source": "문경시민신문",
-      "group": "기타",
-      "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:48:00 GMT"
-    },
-    {
-      "title": "재생에너지 급증 속 전력망 안정화 해법 제시… 트리나 스토리지·TUV 라인란드, 그리드 포밍 ESS 백서 발간",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Pb2NvSW9JLXR0QjdaNl8wT011YUFpdG9QMHhmMWF0dmlOOHhZMjloYnh1MklpTTZ1OXkyOVpKYmd3VmoxZHpGQXRqRnl0UF9KeFpjSlFVV3NhWlBOYTEyeGRkR3MtdGhO?oc=5",
-      "source": "https://www.2news.co.kr/",
-      "group": "기타",
-      "priority": 3,
-      "date": "Thu, 12 Nov 2026 20:40:43 GMT"
-    },
-    {
-      "title": "전례 없는 성층권 붕괴와 역대 최강 엘니뇨 격돌‥\"올겨울은 치열한 남북전쟁\" [기후인사이트 51 | 인싸M]",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1MTGZrQjlsYy1XUkkwT0dPemNnTzBZbXo3QnJubVFqNVA4RHZoQkNXanIxZ3paSENIWmx3TEVmdVYxTUdhVzdmdzAxcFN3R0RRcjEwRzBlUmNNZE1PRDJwREdRb1RrNDUwbGFMbXZtVVZYTnc?oc=5",
+      "title": "제2회 기후에너지환경보도상 〈꽁치풀-바다의 속삭임〉 최우수상, 〈사건번호 2026지구〉 우수상",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9rSlhoaVlhbzhvc1RnUWJ6eGU4TmhWdG1ydDUweTdaQ19kUXdIVjhaX2ZqVUR2N1B4N25ROHpiSUt1RlpueEFQaTFfbi13T19XUW5TbnI4aG9VakJ0MHhMeEdhVDdjUWI1OE1TQjJFbXhZTGJvcjVMVdIBeEFVX3lxTFBYeUNURm9yOWJHcXpzSWc5S0FoREtRbVhqMS1KZHhNTUpDYkNUNGxTVFJBU2JVSVZlZU13MWlSbFczRlBtMFZRelhGbmpXTnBYaUp4eGF6aUJJWEZUTWZGWWJZS25uYmR5M3pNenBlSG91WHIyS1VxUw?oc=5",
       "source": "MBC 뉴스",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 01:00:05 GMT"
+      "date": "Fri, 13 Nov 2026 11:34:26 GMT"
     },
     {
-      "title": "[페로 세미나③] 실가동 데이터가 경쟁력…에너지 절감은 'AI 공정 제어'",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QM1RMZ3gwWVRBeXllbS0zeXlsWTV1aHpVZGpWeGNzMmVHNEl6WHltQW1HT3BrME5KOWt0TTdPYXQ4MktTekFsYXdSR1lrNnZwOTE1emprY0EtTkpwbjNBTXN4cDdJZHJFaHo0RQ?oc=5",
-      "source": "페로타임즈",
+      "title": "에너지정보문화재단, 노원구와 '2026 지역사회 에너지·탄소중립 거버넌스 역량강화' 프로그램 개최",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5qdnI5OWNabTlXWU5HSDBaODliakVvMHdaZWRHNjdGLWIxVVRRQjlKTUQ4OVJRcXdXbWNxbEc4SHAweWpURkRaY0FjSFRPRTE3eFd3SUZpRDc3a2hoU0pnRDNtaGE?oc=5",
+      "source": "일렉트릭파워",
       "group": "기타",
       "priority": 3,
-      "date": "Thu, 12 Nov 2026 20:00:00 GMT"
+      "date": "Fri, 13 Nov 2026 08:26:00 GMT"
     },
     {
-      "title": "삼성물산, 호주 800MWh 대형 BESS 사업 본격화…주정부 인허가 돌입",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1MV3doYnRWREZVM1JNdG9fSHppbDc1SVYteVYwZlYydWpucFVLYXlTa1hZSGNuSVk1YThrekVrSklHWUhOdGZyakdiUllVTjdGYU52WEViSzBYRXI2blNJbjkyVzdpdw?oc=5",
-      "source": "더구루",
+      "title": "아태 10개국 에너지 대표단, 전력망·태양광 기술 살펴",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1WQ0NWRTlyTUVMREdHTGNra2VwZGlIT1RPb25UeGM1cFdoZzZlZWE2SVVrRGVwZzJzOFdrY2ZJM3RJeThiZmhGLW5BcHdVVlFrQ2tXdlh2R2d5ZXBwQjNPZGdyRllJLXd5MnIxelZPemJQUQ?oc=5",
+      "source": "에너지신문",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:11:13 GMT"
+      "date": "Fri, 13 Nov 2026 08:37:15 GMT"
     },
     {
-      "title": "[패트롤]안동시-의성군-영주시-봉화군-예천군",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1TMHNKdmloVFAtd2duMU9RaDJzMGl0Zm9uQXh5YmpLVGJnWUc4Z1ZXY1hsVWFLeHpNR2xCbWxrdXllc2Ftd2t3VGlrS2lkVzJKUTdzRFBKYnlLYVo4TDVTVW53?oc=5",
+      "title": "박문성 \"손흥민이 모든 경기 풀타임 뛰어야 하나\"…세대교체·에너지 문제 지적",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BYThEZURiWVF3VlpUY2xfZFBIejk4emhwc0NtRExiOHdvUDVLUF9xQm41aUVqRnNhLWJIOEZaalJrSk5DQ1dyR1RvaXpoa2xIdjFGQkM4LUt4VjlSdmZUeg?oc=5",
+      "source": "뉴시스",
+      "group": "기타",
+      "priority": 3,
+      "date": "Sat, 14 Nov 2026 00:17:13 GMT"
+    },
+    {
+      "title": "에너지음료 먹고 응급실행…일상 속 숨은 중증알레르기 원인",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE82UnIyOFp6THpEOGI3RFE0cWs0dkswY00tc0ZrYktqSjRLa25ib3kwSjZ3djdqQi1BYnc1ZGxzbEEwd2ZaTWxINE8yY2VGUDRGR1IyRQ?oc=5",
+      "source": "DongA Science",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 08:45:00 GMT"
+    },
+    {
+      "title": "2035년 질량 유량 센서 시장 전망: 반도체·에너지 효율 수요가 성장 견인 - 뉴스 및 통계",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQd0huZHE4MkdyNmpSbl9ZRUJJOVk3LTRtQ3E4ZVMzWXpXUVZzZFJnYURMdktrbGo0VVktOF9HNmFoNGI1RTJjUUx2YzZBSGlWY09tS2lZcUdjaHZKcjdpNl9rZUlpX2pneTkyaTFKSmRJUTZhZGFqVVhTR0NNdkJUaHJqVXFpNjZZNUNtVkpnODlLbEpWOUN2eGFCS2ZzZ2FhdXloVjdjRnFydFJybTlnRmZBZU1hRnlpaEd4QU1SajEwb0dvOVpiLVFSR0J4WEZEUkFrZXFn?oc=5",
+      "source": "IndexBox",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 20:41:06 GMT"
+    },
+    {
+      "title": "하·폐수 및 공업용수까지 수열에너지 인정 범위 확대…포항시 ‘수자원·산업 거점’ 탄소중립 탄력 기대",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1OQVdVYURSd1c5SmlRYkJJQnc5Q1VsdVd5NUI0QUVMaHROSS13Sl90T0w1dWlLOGloNjk2YWQybHdZMXZPZElsSGNPWElaZGZuT1hjRDZRMUVYZw?oc=5",
+      "source": "경북매일",
+      "group": "기타",
+      "priority": 3,
+      "date": "Sat, 14 Nov 2026 00:04:30 GMT"
+    },
+    {
+      "title": "제주에너지공사, 하이브리드 수전해 기술 개발 본격 착수",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TTjRVRE9HRVJSMFl4MklQREJOWE9TLUF0clE4TXA0cGY1RUlBMHhCc3dHM1V1OF9hXy1aZEk2ekh0MHlRN3oxblBndGpFaEN1ZzE3TmdsN0gtSzQ1UUFqUkFtR0xpQnY3RFg1UNIBcEFVX3lxTFBzaHk2TUM0LVEwUGRJUm5McC1STUExUDFTUEJjQ0ZOd3NSUy1XM3Bza3pLMWd5NzdFQWl3aDFKaGc4Wk44RzhERFRPR0U0VGxPSnFacjV6dG1EYk1TUThaMlprVTVMUXpjV25kc2pRNEk?oc=5",
+      "source": "에너지플랫폼뉴스",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 09:12:19 GMT"
+    },
+    {
+      "title": "[기자의 눈] 우클릭 민주당 ‘솔직’이 먼저다",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6VTRHUmE3dzZKM3lqbHdqVlM4VExlSzN5cklmVkV1SnNhS3lDY1RFakdHZmhod08tb21LcUk4cW42UERvSVVlc0JiZ0dsUUtIc1FIVFBDcG1fR2pyb3lLMHdIaw?oc=5",
       "source": "에너지경제신문",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 01:32:17 GMT"
+      "date": "Fri, 13 Nov 2026 22:00:00 GMT"
     },
     {
-      "title": "[국제유가] 중동 에너지 시설 공격에 급등",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1uOXUwdVc2ejFEM3ZlcFRZNWptYkxSZUVfZmRiNDRnWVZMblpsa19lOEFNcjduOFBObmtGSm1rVUxvV05jb1BlNmYtRWp5dk5iNmlEM29ic3Y2cFg0ajlISkx1WkwwdW5TcFZKYjN3YW4?oc=5",
-      "source": "신아일보",
+      "title": "폭스바겐, 기후에너지환경부 행사서 쿠페형 전기 SUV ID.5 전시",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBuVnU0Vko2dHdmT1piMWNUZmFLbDAzY1NOTGdxendJVHlEaUJCSFpRandlRkstQVRRNEYteVJrczNULW9ZdFpUZmx5M2IwbXZfeXVCNHVKZU1oZGs4UUo2cDJRMFI3dw?oc=5",
+      "source": "카가이",
       "group": "기타",
       "priority": 3,
-      "date": "Thu, 12 Nov 2026 23:18:48 GMT"
+      "date": "Fri, 13 Nov 2026 23:49:53 GMT"
     },
     {
-      "title": "[패트롤]경북도-경북도의회-경북교육청-경북교육노조",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5UdU5CdGxJUTNhN3VxTWhEbllZalptN0ZTeWczbWRLSFdnSXJuTUxMMm5XeTZmNG4yS0R1eXBXMXB5TjVwTVM3aERNUzN4a2t0THRhd1RFeVpKYmZ4cjIyY3N3?oc=5",
+      "title": "농업을 기후위기서 구해낼 기술은? 유전자교정 [전문가 좌담회(上)]",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5GWWxwV0VWYld1QmlBd2JrNXB3TUpaNkYwYWJ5T0Z5cU85czQzaDUzdDZ2Z2xFYjJsWDZRbTRJaUVyVUczdDBWMUh5OGcwbDlzMlJNdQ?oc=5",
+      "source": "매일경제",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 20:00:00 GMT"
+    },
+    {
+      "title": "[특별기고]정치의 계산과 기업의 생존, 어느 환경·에너지 공학자의 생각",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92NUYtaGp4SVcwbXczUGVWQlotbXlBZ1ZjT2pxM2N6SG5aOTlrSUNmb2Nmcnk0bkd6ekJuWUJHLTBHa055bm5PXzlucjMwX2RPdExxR1ZNZXNHNUZ4THQ4eER3dXotN0pFdVVIY0NjbnPSAXBBVV95cUxPdjVGLWhqeElXMG13M1BlVkJaLW15QWdWY09qcTNjekhuWjk5a0lDZm9jZnJ5NG5HenpCbllCRy0wR2tOeW5uT185bnIzMF9kT3RMcUdWTWVzRzVGeEx0OHhEd3V6LTdKRXVVSGNDY25z?oc=5",
+      "source": "전기신문",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 06:32:33 GMT"
+    },
+    {
+      "title": "[인사종합·13일] 기후부·과기정통부·기획예산처 등",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Pb3FaQlNrbXhwMkxNUVRXRWNRSTNaVUh6ckM1cFZOOXFtb1czTDcxcGZmVDNyZ040aUhLWjk1cldFXzBUYmN3QzV1ZEdVNDdqNUFibm01VndYbzlVSWFKblJKSGxRM3h4eGpSVjNkMNIBc0FVX3lxTE9HNXM0cGc1RWJGelpTb2tQZm40UDlPOFhIaERWbkVjRXNySXlyN2duNkVmUS0zWnY3LXpWS3ZJNlc3Y3ZGaXpOd3didXRDdnVxNWs3am5BTE43WVBoeXlVMHZhd3lKb0hlNnhTU3YzYTRuLWc?oc=5",
+      "source": "세이프타임즈",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 08:00:00 GMT"
+    },
+    {
+      "title": "동서발전, 울산 부유식 해상풍력 사업추진 위한 협력 강화",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0xUW5DQVFRRzkxdnVXNHZGdXM2VUw3aG1QYWlxdWxfWk9xN0oxcEhxWkNmX1VYRVRwSUtPdThJc2FtNGdPY2VLRWhGbVJTam5xMDRCUGxzSUJzZw?oc=5",
+      "source": "한국경제",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 12:03:06 GMT"
+    },
+    {
+      "title": "OCI파워, OCI테라서스·미션솔라에너지와 글로벌 태양광 밸류체인 경쟁력 선보인다",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBEXzJCMGtXcUp4YmtvVUo2QTBhUktPVGE4SWtjeDE1anY1bm1Pc2Y0eUV0MFVoREFWUmNsR3pzaENPcC1palhuYklPMm8yOHVvM2RDT2VJLWZ0WHBpc2lEQ2NQTVg?oc=5",
+      "source": "일렉트릭파워",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 07:30:00 GMT"
+    },
+    {
+      "title": "동서발전, 울산 375MW 규모 부유식 해상풍력 사업 본격화",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAxUXZ3OFpJMlpKYkhnWWpQNGNuRVJDUjVNRTJMdGdWNlpzZmhVRVdraDh1Q1ZYVXRrRWw0cjhCSEMyX0t2ZDRVYmVuN3Y4ZTUwdDFQd2xRZ2hjcUk5LTZaQ29jMXJCM0NtRWlDaGY1OUZGQQ?oc=5",
+      "source": "에너지데일리",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 05:33:15 GMT"
+    },
+    {
+      "title": "앨 고어 \"사우디 등 산유국이 유엔 기후협상 방해\"",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9YSFVrUHF1YWliN3VTejJBVzFtd3dxdlFpMVFLNUlVamtyQjBfMklveko1OXhJZG8yUVFYRmNSMkpsZ3EyNkwxaUxxbDVSeXJhdWNTVzRBeEZsNWNFUUM4RzZmdmV5bjZBaWJBNTNBejFTa0Fz?oc=5",
+      "source": "연합뉴스 한민족센터",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 10:09:45 GMT"
+    },
+    {
+      "title": "박찬대, 지역 어민과 소통 끊긴 해상풍력 오스테드 ‘독대’··· 뒷말 무성",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBPSGhpTkIzVG40dC0xOTIwdTNpMVNBdlUwdk41RFRzVXRHQzY0aS1GMFVWSDdyMGc4Yi04cHFveGhkSXJiR09rUHdQTEJuaUY4UFJfQXdfVHhOVHQtN05WTEVJM1JlVkRxZHotaWFXc3E?oc=5",
+      "source": "인천투데이",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 06:57:09 GMT"
+    },
+    {
+      "title": "기후행동도 '앱테크' 시대…포인트 받고 예적금 금리우대까지",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE53VlNaaExiUGZORXJUZXhJVE9zR0RXS2VuRzc0Vk9NYkR1RHlJLUhyLUxnN1A5RG5CQWxDZUVRcFV5UkVhcHFMOS1UNTVONWdaYWVRcXhHcThadHhkWGZqUkhmck92ekstLUJURVh2eWhYNEpl?oc=5",
+      "source": "이투데이",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 20:00:00 GMT"
+    },
+    {
+      "title": "동서발전, 375MW 울산 부유식 해상풍력 사업 가속",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBiSXlwR2Nvanp2RHpVYXVZWVoxYTFQNDY4UnFpZElDWGViNDJsd29DcXc1TVBFUFR0Q3JwRnJUUEFOQXl1eDR6ZTc4SHY3Tnl1TkJpekx6SzdvV0N5ejFZRkFKdmQ?oc=5",
+      "source": "매일일보",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 08:18:03 GMT"
+    },
+    {
+      "title": "게임주 주가 하락세…증권사 눈높이는 더 내리막",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE50Y3hWQ09OcVIyMjdzV2RqYUR3ZGFtbEZaLTUwU01CWUVOajBGUmFnTlZzeFh5OTJNUUl2bldXUkVaUW5ERWVaaVZXaGNEWnVXNlVRUTM2OTBzcHBmdDVlVVNJSQ?oc=5",
       "source": "에너지경제신문",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 01:31:58 GMT"
+      "date": "Fri, 13 Nov 2026 22:00:00 GMT"
     },
     {
-      "title": "지엔씨에너지, AI 데이터센터 투자 확대 '핵심기업'…'연 매출 3.7배 규모' 수주잔고 폭증",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5SWUVtYlp5bFpDc3NNUG9URFgxOUZERm1NWGJLWkxfZHFoX1JXeFBwSDFGZXdHeXNsZDFfSEZlVUZFZml0VFhONXRLQVBRLVN0VEJ6VENTSjhuZU1VTmsyekV5ZW9CTjBEdzl2bA?oc=5",
-      "source": "프라임경제",
+      "title": "한전KDN·한국퀀텀컴퓨팅, 전력·에너지 분야 양자기술 협약",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE80eFY1RUR6dEZPR3J4VFpybk9GclNBSHJ1d3Nvd25YMFY0ZDl0UnhWTWd2d2g0VmZrRVMxcXpGc3d5SGt4SjNmYWZpUW9nTEpvaTRaaHVmMEVrOHpveXdaVUFjNG5RenVuUXpCTHdlTQ?oc=5",
+      "source": "양자신문",
       "group": "기타",
       "priority": 3,
-      "date": "Thu, 12 Nov 2026 23:30:11 GMT"
+      "date": "Fri, 13 Nov 2026 09:12:27 GMT"
     },
     {
-      "title": "설비 옆에서 판단하는 `엣지 AI` 확산… 데이터센터 냉각 에너지 25% 절감",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBEaVZKRThEaEIzcmxWQ0htMDk1LVQ2d1BmcmF2S0RDN3IwTXVXVlVLbzFPZnlpbkYtaUVoMG84aFZZNkRWZ1lPRFRxeHdqZzdqbEVwYTdPeExiR0ppTFlLNkQzOEs?oc=5",
-      "source": "디지털데일리",
+      "title": "동서발전, 울산 부유식 해상풍력 사업조건 협의",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9IajRSY2ZYeHRuWVl1YmJKUktQX1k0NlhSd1IyVVZHRC1Za19BanRvZndMOVJ1dXRpUFJSR0luR1ZJS2FLc0g2ZzRsclRjdktVRlRFY09UNjdxN1pCdGZmc1ZrYw?oc=5",
+      "source": "국토일보",
       "group": "기타",
       "priority": 3,
-      "date": "Thu, 12 Nov 2026 21:00:00 GMT"
+      "date": "Fri, 13 Nov 2026 08:55:06 GMT"
     },
     {
-      "title": "시흥시, ‘RE100 빛나는 한 컷’ 사진 공모전…전국 누구나 참여 가능",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE51X3p3c0Z4Qnk3TjJjZGNDSnZyelJQeFRVcXplZFp1ZFZuZUFGZ3RFcFcxcHhBRVhoVThvNl9zeXdxSXNfdW8ydjFKUGl4Ni0xMFBBaDN2T2w4T19hQXFKbTFqTXFGYWpVcW1wd0h4NmdidDhJTXVxSWI4Y2k?oc=5",
-      "source": "비욘드포스트",
+      "title": "한국이음교육융합센터·창릉초교, 체험으로 배우는 재생에너지",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hWUhjSTR5bEhJVnV0LVdBMWdTQVlWd1AwajNTUWxmM2oyQmphekNxVThHRHhZVkY2YzRsb0xwYnpEYzhLS1BMcTI2WXUxTmp1S3U0bndtVnRNZnhYU05TZnNoSm9sN0pBbEE?oc=5",
+      "source": "고양신문",
       "group": "기타",
       "priority": 3,
-      "date": "Thu, 12 Nov 2026 23:03:54 GMT"
+      "date": "Fri, 13 Nov 2026 07:57:23 GMT"
     },
     {
-      "title": "가톨릭대 김준영 교수팀 AI로 폐기물 에너지 생산 최적화…실제 실험으로 성능 검증",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Nek5KdUhGUHhjUE1DVTNHY21nSWxoTWE2TU5DREJ5d3ZBaUx0TVRYWTg1WlcxaXdpS2hkbE1aWF9VLURpSG5qOS1EMGVxRHB6N1JSdXI0U0dyS0U4dmlUYVkxNnVJbndDOXN4dg?oc=5",
-      "source": "베리타스알파",
-      "group": "기타",
-      "priority": 3,
-      "date": "Thu, 12 Nov 2026 23:36:19 GMT"
-    },
-    {
-      "title": "[특징주] 한국전력, 3분기 실적 컨센서스 밑돌아…9%대 하락",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mU2dlNHcyZzFndk42djg4elM3YXlpQWRQNFVNZXRERHNyRFZENG50a2xYeFlURnJWb2dra3pJMXRXR3dBYV9RSHRVWmpjQ1JZU1FpeU05ZWxOOWc?oc=5",
+      "title": "석유 최고가 또 동결, 유류세 인하까지…“민생 부담, 당분간 유지”",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1BMHlRRE05czdUYlBkclF1azZoejBVOU9LazZlcjJIRnBrcTdRVEhSdDRqVGdoSU9uUEl3VEtJbmUtVkt1WmhzeTNkUWN3U2UxRVFXbVloSmlKQWw2NURsS1hsMA?oc=5",
       "source": "에너지경제신문",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:30:04 GMT"
+      "date": "Fri, 13 Nov 2026 20:00:00 GMT"
     },
     {
-      "title": "하나증권 \"미국 증시 에너지주 강세, 에쓰오일 SK이노베이션 GS 주목\"",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBLZlhkR2puNkFkamw4NGxheHNkTEEtMU9PNHU1dVFpUjlNWUVvNFRRLUtnMkZ5QTNuWXZRbUFQZnpjOGxpdlBKVm1sYWdtaW5YSXp4Y0pubTBnUWlXX1RUQVFJUUUwSWpYeHhwSGFRclM2WWM?oc=5",
-      "source": "비즈니스포스트",
+      "title": "경기환경에너지진흥원 주관 경기생물다양성포럼 25일 개최",
+      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBIWC0zMjBpNEZIZld4THVaWGNHZXFyZ1VlSUM4ZktKN2Z1S0NCR0I5T3NEQ29PYld5MTY5eUdtVQ?oc=5",
+      "source": "사회적경제뉴스",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:19:46 GMT"
+      "date": "Fri, 13 Nov 2026 11:35:00 GMT"
     },
     {
-      "title": "OCI파워, 계열사와 美 'RE+ 2026' 공동 참가…태양광 공급망 경쟁력 'Up'",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5lUEZBQ3RjMm9uUEpSaW5RUTZBb2dVbWlPRnpIN0lrbmhmblc3R3VHeXdvdEZiSzZwanVsbl9fcTdSLXFadEREcWpHcVFSbHpVWUJPQ3RQUjlHZXotalV1bkhDZFFQLWRlTXB3eQ?oc=5",
-      "source": "ER 이코노믹리뷰",
+      "title": "“5분 만에 초고속 충전”… BYD, 태양광·에너지 저장·로봇 결합한 미래형 충전소 공개 - 중국 BYD, 태양광 지붕·대용량 배터리·메가와트급 플래시 충전·로봇 팔 결합한 통합 충전소 공개",
+      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5MT1hkWmdIcFdXUkg4SzY3UkFvQ2VmUjJlWFBtUzhGUjB4Q05OYllJU01LbFc5OC1wRElSZjdjRjM?oc=5",
+      "source": "AI넷",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 01:31:07 GMT"
+      "date": "Fri, 13 Nov 2026 22:27:00 GMT"
     },
     {
-      "title": "대중기협력재단, 에너지기술평가원과 中企 ESG 경영 지원",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBWdVRGbWtfcmdoTXd1NXRaYlBHRDV1cmZqZ2RxR1ByWHJaSWtKMjJ5SzdydlVTekpIUU5Tc0VRRVBEbUJRbkJfNkNoMEx2SmlldlJRVV9EbkVjbXlJcWtjag?oc=5",
-      "source": "메트로신문",
+      "title": "동서발전, 울산 부유식 해상풍력 사업추진 위한 협력 강화",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5HQXozMl9DdWgzTHViNXRtTmV3NFA4THZ1Z3A5dGxXWGsybjhJSDlmUmhIbGh1dVNOYm1pUnBkY0l1NG9WR0dIZ1FMMHEwOUEtUXlmbE9IT0hlTTN2UTNCcmNieGNsb2NhZ0kw?oc=5",
+      "source": "한국건설신문",
       "group": "기타",
       "priority": 3,
-      "date": "Thu, 12 Nov 2026 23:19:21 GMT"
+      "date": "Fri, 13 Nov 2026 09:00:59 GMT"
     },
     {
-      "title": "기후변화 대응 벼 품종 연구에 무게…김강헌 의원, 농업기술원에 주문",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB0WC1NZVBuQ0NpejN4MHZIX3o2c3N0bnFEeFBObFUwMzBGZmQtd0FtWjl5VzlnNm13UHNLSTRyNndhUjNXQkplUQ?oc=5",
-      "source": "미디어이슈",
+      "title": "중국 재생에너지 수소 설비 연 35만 톤 넘어…생산·운송·수요 연결이 과제",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBFaDNUc25EYjdIZV92YVFXUDMwZVZ4bG9LZW5FR1BXYmpuNklJWWZWQXVhQVFlSlB3V281QkRvc3AzRHlfRzdfZXlR?oc=5",
+      "source": "얼리어답터뉴스",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:41:00 GMT"
+      "date": "Fri, 13 Nov 2026 19:59:04 GMT"
     },
     {
-      "title": "엔라이튼, 기술성평가 통과…내년 코스닥 상장 예고",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Xb2d5T0RjT1E2VVp1d1E3RWIxNEcxRExEd20xM2t6SWVPbGJSY3lHRElxQ21PT3ZXbHAzdEtXTktHeFdFSS1Gb0p6Ty1hVzFCOHpOcXRn?oc=5",
-      "source": "지디넷코리아",
+      "title": "숭실대, AI시대 재난관리 전망 논의…탄소중립·에너지안보 등 협력 모색",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIbFgzbmNqZFVVSTFUOVFBOEd6M3VIdE1jWGFjN1ZxNDU3azRVaC1GRmtET3piRXVlb1Z1cXhvb01WbXctaUs5YmRMVk1FVmlzZ3R4QUhDUC1CZkNxeW0yVDVSRXVrWjg?oc=5",
+      "source": "교수신문",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 00:58:51 GMT"
+      "date": "Fri, 13 Nov 2026 06:49:26 GMT"
     },
     {
-      "title": "아시아에너지, 한국남부발전 입찰서 바이오중유 최대 물량 확보",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xOHJwYlZjQXh1YXBxTHhNc1JFN083NXZvemc2VkQ3V0V3NE85cEx2MEdiYjFsdlRqZkZIWlFoQUYyb21BeFhZbFZTMjVqdlpVRFl4eFpMY3dDWHBmMGI0eno3VWpVSnFsUUowVHFvV1V1QlnSAXdBVV95cUxQZXl2M1I4MHFhaWZVRHBqcFVqdlVWYWN5YlJlSkEtTkJxZHlNMGRIOHA0b0U3NmFnRzNTanZuMU8zNE5fc0lpb1owTU5KOTZpTlJTUnBpcFI4Q2xENkh6SWlqSHRMOHlKNmlXNW8wMFpPczM5MzkwTQ?oc=5",
-      "source": "뉴스프리존",
+      "title": "375MW 울산 부유식 해상풍력 속도…기술·금융 협력 구체화",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5JWnJIVC1ZblJpcWt2X01mV212Qk1MbmVPSGY5ekJEU2lGUzJtb204cGxHSTc1a0NhVDE5N2FiM0QxSncyQWRnXzcydlUyVllua0NVRG1YN1BjRWlIQnZfa2ZjWXlTSk9pOThEUzktNGxpUQ?oc=5",
+      "source": "에너지신문",
       "group": "기타",
       "priority": 3,
-      "date": "Fri, 13 Nov 2026 01:12:43 GMT"
+      "date": "Fri, 13 Nov 2026 07:30:34 GMT"
+    },
+    {
+      "title": "제주에너지공사, 재생에너지 변동 대응 수전해 기술개발 착수",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Sc0pkSE9tVDB2SGNsX0gyNVRSNGlTUzZHZWUzTGJxUUp5NE42MWFSZTY0T0VnekV2dDhWVnZCS3pNdXVXV2d1UHJ5YkdLX2VvYTBBZHRjVWFOQXNNc2tWQ1V5d1BiTjBxM2hWUWVlWQ?oc=5",
+      "source": "제주도민일보",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 08:18:08 GMT"
+    },
+    {
+      "title": "iH, 태양광 발전사업 추진 업무협약 체결",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16Uk1rUzFwM3FjYWU0OXdrUVhJYnF2WlRWRlhEZktwN1Q1Rmh1SUlfQms1YVAtMFlsaXdYRlQ3Nlo3WmlxV3g1RkEwenVoUV93N01Cc2lQa1dFYlFKdExQbTlGc2FnQmpYVkljLU9n?oc=5",
+      "source": "현대일보",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 09:50:24 GMT"
+    },
+    {
+      "title": "전석훈, 기후위성 기획 경위 추궁…김현곤 “보고 한 번 받은 것으로 기억”",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBvZ0h6ZlBDU2RCckphRmllQWFxQkZ4cXVSalJQS1RuUFRaODc4OGlMVG5ROHhfUGQ3Ui01S0N5cEliRTBRWlJCMlBKRGRVZGtlVjk1MHZzb0EtWm1zbGpmRHN0RFJUa0JOT1JIOHJXV3M?oc=5",
+      "source": "인천일보",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 09:06:02 GMT"
+    },
+    {
+      "title": "[위투게더] 가스공사, 쪽방촌 주민 '따뜻한 겨울나기' 돕는다",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4cnB1Zy1ZT0FjY09YYUlWV2QtNmdyZW91dGtQWVVtN3hvMExkRW9McGhFZHk5R3ZOWWxkUkwyVjktRHZ1OWNmWVFxcDQzcHJoZWJLRDFEdzVvUXEwN09uSEVzV2ZMbU9SNmc?oc=5",
+      "source": "서울파이낸스",
+      "group": "기타",
+      "priority": 3,
+      "date": "Sat, 14 Nov 2026 00:00:00 GMT"
+    },
+    {
+      "title": "류윤기 iH 사장, 정수장 활용 태양광 발전 확대…5.7MW 규모 사업 추진",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wSXpEZkFHWE5naE5RUlR3YTB5TFhQUzd6TFB3R3V4REZsRjlTcFlZWTVjVGZvcDVBcU9zMUJHemhuQ3gxb3MxdjFUMDJ5ZDFCU0RWaExqcWlQalpZa0hwOXMzd2NrRXY50gFsQVVfeXFMUFZUVmZwY3NxbEZVMVd1dEx3WkprOFd5SkhmTUhzakdhOVNobnVoUEpXQWlmUTFEdkJkbWRoSmk3b1BKeWFIYVpaX19JVDJ1WkthZTcxVHM0OXo1V1VTX1V5QUwxZkRRd0wzc1Y4?oc=5",
+      "source": "필드뉴스",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 08:57:30 GMT"
+    },
+    {
+      "title": "서성재 남부발전 부사장, 에너지 사업관리 공로 인정",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1sc0VvNm1zQ3pWdVB4d1dVNklHc2hPOTBxbGRIakdxcTZRT3dtVFhrRk1NVE04OU03VjZsbjBJcVYydGU1M18zLW9Nb1dBYmYwN180VVhTcjNWLXJrYzR6dDNuRk9pV3ptb3c?oc=5",
+      "source": "천지일보",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 10:18:16 GMT"
+    },
+    {
+      "title": "베선트는 유가, 굴스비는 서비스…美 물가 진단 '충돌'",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE45bVdKMkVPLWkyQUM1WmtKQm4zS0dKUGZucmxGaXRoU0V4S0U2TzRwQlhLSm9YeWtXRU9LLWZXR1pwalVlcFZQRnEwSDJwWDUwT1FpYVBCRWNHSU5zMDJKN3VoeHdtbDVZUUIzaVJSUEdVbGM?oc=5",
+      "source": "마켓인",
+      "group": "기타",
+      "priority": 3,
+      "date": "Fri, 13 Nov 2026 19:48:03 GMT"
     }
   ]
 }
