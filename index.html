@@ -11,7 +11,6 @@
         .container { max-width: 600px; margin: 0 auto; }
         h1 { color: #1e4a3c; margin-bottom: 5px; font-size: 22px; line-height: 1.3; }
         
-        /* 📊 컨트롤 패널 (상태 현황판 및 갱신 버튼) */
         .status-board { background: #e8f5e9; border: 1px solid #c8e6c9; padding: 15px; border-radius: 8px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; }
         .update-info { display: flex; flex-direction: column; gap: 4px; }
         .update-info strong { color: #1b5e20; font-size: 14px; }
@@ -21,18 +20,15 @@
         .refresh-btn:hover { background: #15362c; }
         .refresh-btn:active { transform: scale(0.95); }
 
-        /* 탭 버튼 스타일 */
         .filter-container { display: flex; gap: 8px; margin-bottom: 20px; padding-bottom: 10px; overflow-x: auto; white-space: nowrap; -webkit-overflow-scrolling: touch; }
         .filter-container::-webkit-scrollbar { display: none; }
         .filter-btn { background: #e0e7e4; border: none; padding: 10px 16px; border-radius: 20px; cursor: pointer; font-size: 14px; color: #333; font-weight: 500; transition: background 0.2s; }
         .filter-btn.active { background: #1e4a3c; color: white; font-weight: bold; }
         
-        /* 기사 리스트 */
         .news-card { background: white; padding: 15px; border-radius: 10px; margin-bottom: 12px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); text-decoration: none; display: block; color: inherit; transition: transform 0.2s; }
         .news-card:active { transform: scale(0.98); }
         .source-badge { font-size: 11px; font-weight: bold; padding: 3px 8px; border-radius: 4px; margin-bottom: 8px; display: inline-block; }
         
-        /* 언론사별 뱃지 색상 */
         .badge-jeju { background-color: #e3f2fd; color: #1976d2; }
         .badge-national { background-color: #fce4ec; color: #c2185b; }
         .badge-other { background-color: #f5f5f5; color: #616161; } 
@@ -44,20 +40,17 @@
 </head>
 <body>
     <div class="container">
-        <!-- 메인 제목 -->
         <h1 id="mainTitle">🌱 오늘의 기후·에너지</h1>
         
-        <!-- 컨트롤 패널 -->
         <div class="status-board">
             <div class="update-info">
                 <strong>고정 키워드 당일 기사</strong>
                 <span class="update-time" id="updateTime">데이터를 불러오는 중...</span>
             </div>
-            <!-- 수동 강제 갱신 버튼 -->
+            <!-- 수동 갱신 버튼 -->
             <button class="refresh-btn" onclick="fetchLiveNews()">🔄 최신 갱신</button>
         </div>
 
-        <!-- 3단 필터 탭 -->
         <div class="filter-container">
             <button class="filter-btn active" onclick="filterGroup('전체', this)">전체 (당일)</button>
             <button class="filter-btn" onclick="filterGroup('제주 언론', this)">제주</button>
@@ -65,7 +58,6 @@
             <button class="filter-btn" onclick="filterGroup('기타', this)">기타</button>
         </div>
 
-        <!-- 기사 목록이 렌더링될 곳 -->
         <div id="newsList"></div>
     </div>
 
@@ -73,19 +65,17 @@
         let allArticles = [];
         let currentTab = '전체';
         
-        // 검색 키워드 및 언론사 설정
         const BASE_KEYWORDS = ["기후", "에너지", "전력시장", "전력계통", "탄소시장", "탄소크레딧", "해상풍력", "태양광", "RE100", "송전망"];
         const TARGET_JEJU = ["제주의소리", "헤드라인제주", "한라일보", "제민일보", "제주매일", "JIBS"];
         const TARGET_MAIN = ["조선일보", "중앙일보", "동아일보", "한겨레", "경향신문", "한국일보", "서울신문", "문화일보", "세계일보", "국민일보"];
 
-        // 언론사 분류 함수
         function categorizeSource(sourceName) {
             if (TARGET_JEJU.some(j => sourceName.includes(j))) return { group: "제주 언론", priority: 1 };
             if (TARGET_MAIN.some(n => sourceName.includes(n))) return { group: "주요언론사", priority: 2 };
             return { group: "기타", priority: 3 };
         }
 
-        // 1. 처음 접속 시 깃허브 로봇이 새벽에 만들어둔 데이터(data.json) 불러오기
+        // 1. 처음 접속 시 깃허브 새벽 조간 데이터 호출
         fetch('data.json')
             .then(response => response.json())
             .then(data => {
@@ -96,10 +86,9 @@
             })
             .catch(error => {
                 document.getElementById('updateTime').innerText = "자동 업데이트 기록 없음";
-                fetchLiveNews(); // 깃허브에 데이터가 없으면 자동으로 실시간 호출
+                fetchLiveNews();
             });
 
-        // 2. 탭 메뉴 클릭 시 화면 변경
         function filterGroup(targetGroup, btnElement) {
             document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
             btnElement.classList.add('active');
@@ -107,42 +96,83 @@
             applyFilters();
         }
 
-        // 3. 수동 갱신 (자동 업데이트 실패 또는 최신 기사를 즉시 보고 싶을 때)
+        // 2. 수동 강제 갱신 (캐시 무력화 및 다중 우회로 시스템)
         function fetchLiveNews() {
             const newsList = document.getElementById('newsList');
-            newsList.innerHTML = '<div class="loading">최신 당일 기사를 불러오고 있습니다... ⏳</div>';
+            newsList.innerHTML = '<div class="loading">구글에서 최신 기사를 낚아채고 있습니다... ⏳</div>';
 
-            // when:1d 조건을 붙여 당일 기사만 검색
             const query = encodeURIComponent(BASE_KEYWORDS.join(' OR ') + " when:1d");
             
-            // 💡 [캐시 무력화] 현재 시간(밀리초)을 꼬리표로 달아 우회 서버가 매번 새 데이터를 가져오도록 강제함
+            // 캐시를 완벽히 뚫기 위해 시간 난수 부착
             const dummyTime = new Date().getTime();
-            const rssUrl = `https://news.google.com/rss/search?q=${query}&hl=ko&gl=KR&ceid=KR:ko&cb=${dummyTime}`;
+            const rssUrl = `https://news.google.com/rss/search?q=${query}&hl=ko&gl=KR&ceid=KR:ko&_cache=${dummyTime}`;
             
-            // rss2json API를 통한 구글 차단 우회
-            const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
+            // 💡 [핵심 기술] 구글 차단에 대비한 3중 우회망 (플랜 A, B, C) 세팅
+            const proxyList = [
+                `https://api.allorigins.win/get?url=${encodeURIComponent(rssUrl)}&disableCache=true`, // 1순위 우회로
+                `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(rssUrl)}`,            // 2순위 우회로
+                `https://corsproxy.io/?${encodeURIComponent(rssUrl)}`                               // 3순위 우회로
+            ];
 
-            fetch(apiUrl)
-                .then(response => response.json())
-                .then(data => {
-                    if (data.status !== "ok") throw new Error("API 연동 실패");
+            // 우회망을 순서대로 뚫어보는 재귀 함수
+            async function tryFetch(proxyIndex) {
+                // 3개의 우회망이 모두 막혔을 경우 최후의 안내
+                if (proxyIndex >= proxyList.length) {
+                    newsList.innerHTML = `
+                        <p style="color:#d32f2f; text-align:center; padding:20px; font-weight:bold; line-height:1.6;">
+                            수집 실패 ❌<br><br>
+                            구글의 보안망이 일시적으로 모든 우회 접속을 차단했습니다.<br>
+                            깃허브(GitHub)의 [Actions] 탭에서<br>로봇을 수동으로 실행(Run workflow) 시켜주세요.
+                        </p>`;
+                    return;
+                }
+
+                try {
+                    const response = await fetch(proxyList[proxyIndex]);
+                    if (!response.ok) throw new Error("Proxy error");
                     
+                    let xmlString = "";
+                    
+                    // allorigins는 JSON 포맷 안에 텍스트를 담아주므로 꺼내는 방식이 다름
+                    if (proxyList[proxyIndex].includes("allorigins")) {
+                        const data = await response.json();
+                        xmlString = data.contents;
+                    } else {
+                        xmlString = await response.text();
+                    }
+
+                    // 구글의 차단 페이지("We're sorry")를 가져왔다면 실패로 간주하고 다음 우회로로 넘김
+                    if (!xmlString || xmlString.includes("We're sorry")) throw new Error("Google Blocked");
+
+                    // 가져온 XML 데이터를 자바스크립트로 직접 해독 (rss2json 캐시 방지)
+                    const parser = new window.DOMParser();
+                    const xmlData = parser.parseFromString(xmlString, "text/xml");
+                    const items = xmlData.querySelectorAll("item");
+                    
+                    if (items.length === 0) throw new Error("No items found");
+
                     let liveArticles = [];
-                    data.items.forEach(item => {
+                    items.forEach(item => {
+                        let titleRaw = item.querySelector("title").textContent;
+                        let link = item.querySelector("link").textContent;
                         let source = "기타 언론사";
-                        const titleParts = item.title.split(' - ');
-                        if(titleParts.length > 1) { source = titleParts.pop(); }
-                        const cleanTitle = titleParts.join(' - ');
                         
-                        const cat = categorizeSource(source);
-                        liveArticles.push({ title: cleanTitle, link: item.link, source: source, group: cat.group, priority: cat.priority });
+                        let sourceNode = item.querySelector("source");
+                        if(sourceNode) { source = sourceNode.textContent; }
+                        
+                        let titleParts = titleRaw.split(' - ');
+                        if(!sourceNode && titleParts.length > 1) { source = titleParts.pop(); }
+                        let cleanTitle = titleParts.join(' - ');
+                        
+                        let cat = categorizeSource(source);
+                        liveArticles.push({ title: cleanTitle, link: link, source: source, group: cat.group, priority: cat.priority });
                     });
 
-                    // 우선순위 정렬 (1:제주 -> 2:주요 -> 3:기타)
+                    // 우선순위 정렬
                     liveArticles.sort((a, b) => a.priority - b.priority);
                     allArticles = liveArticles;
                     
-                    // 제목 및 갱신 시간 변경
+                    // 강제 갱신 시간 기록
                     const now = new Date();
                     const month = String(now.getMonth() + 1).padStart(2, '0');
                     const day = String(now.getDate()).padStart(2, '0');
@@ -153,22 +183,20 @@
                     document.getElementById('updateTime').innerHTML = `<span style="color:#d32f2f; font-weight:bold;">수동 갱신 완료: ${month}월 ${day}일 ${hours}:${minutes}</span>`;
                     
                     applyFilters();
-                })
-                .catch(error => {
-                    newsList.innerHTML = `
-                        <p style="color:#d32f2f; text-align:center; padding:20px; font-weight:bold;">
-                            수집 실패 ❌<br><br>
-                            우회 서버(rss2json) 접속이 혼잡하거나 한도를 초과했습니다.<br>
-                            이 화면이 지속될 경우, 깃허브 [Actions] 메뉴에서 로봇을 수동 실행(Run workflow) 해주세요.
-                        </p>`;
-                });
+
+                } catch (error) {
+                    console.log(`[우회로 ${proxyIndex + 1}번 실패] 다음 우회로를 탐색합니다...`);
+                    tryFetch(proxyIndex + 1); // 현재 우회로가 막히면 다음 우회로 자동 실행
+                }
+            }
+
+            tryFetch(0); // 첫 번째 우회로부터 돌격 시작
         }
 
-        // 4. 필터 로직에 맞춰 화면에 기사 렌더링
+        // 3. 화면 렌더링
         function applyFilters() {
             const newsList = document.getElementById('newsList');
             
-            // 현재 탭에 맞는 기사만 추려내기
             let finalArticles = [];
             if (currentTab === '전체') {
                 finalArticles = allArticles; 
@@ -178,17 +206,15 @@
 
             let html = '';
             if (finalArticles.length === 0) {
-                newsList.innerHTML = '<p style="color:#666; text-align:center; padding:30px;">선택하신 탭에 해당하는 기사가 없습니다.</p>';
+                newsList.innerHTML = '<p style="color:#666; text-align:center; padding:30px;">당일 기사가 아직 발행되지 않았습니다.</p>';
                 return;
             }
 
-            // 기사 카드 생성
             finalArticles.forEach(article => {
                 let badgeClass = 'badge-other';
                 if (article.group === '제주 언론') badgeClass = 'badge-jeju';
                 else if (article.group === '주요언론사') badgeClass = 'badge-national';
 
-                // 💡 [보안] rel="noreferrer noopener" 로 구글의 출처 추적을 완벽 차단
                 html += `
                     <a href="${article.link}" target="_blank" rel="noreferrer noopener" class="news-card">
                         <span class="source-badge ${badgeClass}">${article.source}</span>
